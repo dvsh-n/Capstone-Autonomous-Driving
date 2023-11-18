@@ -1,0 +1,33 @@
+[3.303s] Invoking command in '/mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/src/ESPCam-ROS2': PYTHONPATH=/mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/prefix_override:/mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ESPCam-ROS2 build --build-base /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/build install --record /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/install.log --install-scripts $base/lib/ESPCam-ROS2 --single-version-externally-managed
+[4.588s] running egg_info
+[4.597s] creating ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info
+[4.603s] writing ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/PKG-INFO
+[4.620s] writing dependency_links to ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/dependency_links.txt
+[4.633s] writing entry points to ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/entry_points.txt
+[4.642s] writing requirements to ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/requires.txt
+[4.649s] writing top-level names to ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/top_level.txt
+[4.676s] writing manifest file '../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+[4.834s] reading manifest file '../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+[4.952s] writing manifest file '../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+[4.963s] running build
+[4.965s] running build_py
+[4.972s] creating /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/build
+[4.976s] creating /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/build/lib
+[4.981s] creating /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+[5.004s] copying ESPCam-ROS2/__init__.py -> /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+[5.035s] running install
+[5.045s] running install_lib
+[5.097s] creating /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/lib/python3.8/site-packages/ESPCam-ROS2
+[5.140s] copying /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/build/lib/ESPCam-ROS2/__init__.py -> /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/lib/python3.8/site-packages/ESPCam-ROS2
+[5.222s] byte-compiling /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/lib/python3.8/site-packages/ESPCam-ROS2/__init__.py to __init__.cpython-38.pyc
+[5.304s] running install_data
+[5.321s] creating /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/share/ament_index
+[5.325s] creating /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/share/ament_index/resource_index
+[5.330s] creating /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/share/ament_index/resource_index/packages
+[5.357s] copying resource/ESPCam-ROS2 -> /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/share/ament_index/resource_index/packages
+[5.405s] copying package.xml -> /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/share/ESPCam-ROS2
+[5.429s] running install_egg_info
+[5.459s] Copying ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info to /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/lib/python3.8/site-packages/ESPCam_ROS2-0.0.0-py3.8.egg-info
+[6.010s] running install_scripts
+[6.136s] writing list of installed files to '/mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/install.log'
+[6.178s] Invoked command in '/mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/src/ESPCam-ROS2' returned '0': PYTHONPATH=/mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/prefix_override:/mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/install/ESPCam-ROS2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ESPCam-ROS2 build --build-base /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/build install --record /mnt/c/Users/deves/Desktop/Desktop All/Projects/Capstone/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/build/ESPCam-ROS2/install.log --install-scripts $base/lib/ESPCam-ROS2 --single-version-externally-managed

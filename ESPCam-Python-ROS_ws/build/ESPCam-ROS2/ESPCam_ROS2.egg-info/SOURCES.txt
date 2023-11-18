@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/PKG-INFO
+../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt
+../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/dependency_links.txt
+../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/entry_points.txt
+../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/requires.txt
+../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/top_level.txt
+../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/zip-safe
+ESPCam-ROS2/__init__.py
+resource/ESPCam-ROS2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
