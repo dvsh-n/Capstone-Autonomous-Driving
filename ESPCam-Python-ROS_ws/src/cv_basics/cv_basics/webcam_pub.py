@@ -10,7 +10,8 @@ class ImagePublisher(Node):
 
   def __init__(self):
     super().__init__('image_publisher')
-    self.URL = "http://192.168.0.102"
+    self.declare_parameter("ESPCam_URL", "http://192.168.0.102")
+    self.URL = str(self.get_parameter("ESPCam_URL").value)
     self.publisher_ = self.create_publisher(Image, 'video_frames', 10)
     timer_period = 0.1  # seconds
     self.timer = self.create_timer(timer_period, self.timer_callback)
