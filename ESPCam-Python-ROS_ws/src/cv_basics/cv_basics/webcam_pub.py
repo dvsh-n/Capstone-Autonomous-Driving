@@ -18,6 +18,8 @@ class ImagePublisher(Node):
     self.res = int(self.get_parameter("ESPCam_res").value)
     self.declare_parameter("ESPCam_led", 255)
     self.led = int(self.get_parameter("ESPCam_led").value)
+    self.declare_parameter("ESPCam_qlt", 4)
+    self.qlt = int(self.get_parameter("ESPCam_qlt").value)
     self.declare_parameter("ESPCam_num", 1)
     self.num = int(self.get_parameter("ESPCam_num").value)
 
@@ -29,10 +31,10 @@ class ImagePublisher(Node):
     self.timer = self.create_timer(timer_period, self.timer_callback)
 
     # Camera Settings
-    self.set_resolution(10)  
-    self.set_quality(4) 
-    self.set_flash(255)
-    self.set_awb(1)
+    self.set_resolution()  
+    self.set_quality()
+    self.set_flash()
+    self.set_awb()
 
     # CV Settings
     self.cap = cv2.VideoCapture(self.URL + ":81/stream")
@@ -47,17 +49,17 @@ class ImagePublisher(Node):
     self.get_logger().info('Publishing video frame')
 
   # Resuolutions: 10: UXGA(1600x1200) 9: SXGA(1280x1024) 8: XGA(1024x768) 7: SVGA(800x600) 6: VGA(640x480) 5: CIF(400x296) 4: QVGA(320x240) 3: HQVGA(240x176) 0: QQVGA(160x120)
-  def set_resolution(self,  index: int=7):
-      requests.get(self.URL + "/control?var=framesize&val={}".format(index))
+  def set_resolution(self):
+      requests.get(self.URL + "/control?var=framesize&val={}".format(self.res))
   # Quality: 4: Best, 63: Worst 
-  def set_quality(self, value: int=4):
-    requests.get(self.URL + "/control?var=quality&val={}".format(value))
+  def set_quality(self):
+    requests.get(self.URL + "/control?var=quality&val={}".format(self.qlt))
   # Auto White Balance: 1: True, 0: False
   def set_awb(self, awb: int=1):
     requests.get(self.URL + "/control?var=awb&val={}".format(awb))
   # LED Flash: 0: Off, 255: Brightest
-  def set_flash(self, intensity: int=255):
-      requests.get(self.URL + "/control?var=led_intensity&val={}".format(intensity))
+  def set_flash(self):
+      requests.get(self.URL + "/control?var=led_intensity&val={}".format(self.led))
   
 def main(args=None):
   rclpy.init(args=args)
