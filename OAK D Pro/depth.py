@@ -47,6 +47,10 @@ with dai.Device(pipeline) as device:
     # Output queue will be used to get the disparity frames from the outputs defined above
     q = device.getOutputQueue(name="disparity", maxSize=4, blocking=False)
 
+    # IR LED Illumination and IR Dot Projector
+    device.setIrLaserDotProjectorIntensity(1)
+    device.setIrFloodLightIntensity(1)
+
     while True:
         inDisparity = q.get()  # blocking call, will wait until a new data has arrived
         frame = inDisparity.getFrame()
