@@ -1,0 +1,9 @@
+source;share/OAK_D_Pro/hook/pythonpath.ps1
+source;share/OAK_D_Pro/hook/pythonpath.dsv
+source;share/OAK_D_Pro/hook/pythonpath.sh
+source;share/OAK_D_Pro/hook/ament_prefix_path.ps1
+source;share/OAK_D_Pro/hook/ament_prefix_path.dsv
+source;share/OAK_D_Pro/hook/ament_prefix_path.sh
+source;../../build/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath_develop.ps1
+source;../../build/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath_develop.dsv
+source;../../build/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath_develop.sh

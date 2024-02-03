@@ -67,7 +67,7 @@ class Depth_Frame_Pub(Node):
         while rclpy.ok():
             inDisparity = q.get()  # blocking call, will wait until a new data has arrived
             frame = inDisparity.getFrame()
-            frame_msg.data = np.array(frame).flatten().astype(np.float32)
+            frame_msg.data = np.array(frame).flatten().astype(np.float64)
             self.publisher.publish(frame_msg)
             self.get_logger().info('Publishing Frame')
             

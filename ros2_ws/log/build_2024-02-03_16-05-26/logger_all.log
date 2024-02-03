@@ -1,0 +1,135 @@
+[5.712s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[5.712s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7dcd6170>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7dfbd8d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7dfbd8d0>>)
+[5.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.958s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws'
+[5.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.009s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.009s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.009s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.010s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.010s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.011s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.011s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.011s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.012s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['ignore', 'ignore_ament_install']
+[6.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'ignore'
+[6.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'ignore_ament_install'
+[6.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['colcon_pkg']
+[6.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'colcon_pkg'
+[6.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['colcon_meta']
+[6.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'colcon_meta'
+[6.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['ros']
+[6.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'ros'
+[6.026s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OAK_D_Pro' with type 'ros.ament_python' and name 'OAK_D_Pro'
+[6.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.124s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install
+[7.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ubuntu/ros2_ws/install
+[7.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/humble
+[7.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.886s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_args' from command line to 'None'
+[7.886s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_target' from command line to 'None'
+[7.886s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.886s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_clean_cache' from command line to 'False'
+[7.886s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_clean_first' from command line to 'False'
+[7.887s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_force_configure' from command line to 'False'
+[7.887s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'ament_cmake_args' from command line to 'None'
+[7.887s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'catkin_cmake_args' from command line to 'None'
+[7.887s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.887s] DEBUG:colcon.colcon_core.verb:Building package 'OAK_D_Pro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro', 'merge_install': False, 'path': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro', 'symlink_install': True, 'test_result_base': None}
+[7.968s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.054s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro' with build type 'ament_python'
+[8.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('OAK_D_Pro', 'ament_prefix_path')
+[8.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/ament_prefix_path.ps1'
+[8.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/ament_prefix_path.dsv'
+[8.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/ament_prefix_path.sh'
+[8.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.457s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro'
+[11.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.943s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/ament_index/resource_index/packages/OAK_D_Pro
+[14.943s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.xml
+[14.945s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/OAK_D_Pro/depth_publisher
+[14.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro': PYTHONPATH=/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build --no-deps install_data
+[19.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('OAK_D_Pro', 'pythonpath_develop')
+[19.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro' returned '0': PYTHONPATH=/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build --no-deps install_data
+[19.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath_develop.ps1'
+[19.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath_develop.dsv'
+[19.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath_develop.sh'
+[19.350s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro' for CMake module files
+[19.352s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro' for CMake config files
+[19.355s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib'
+[19.356s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/bin'
+[19.357s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/pkgconfig/OAK_D_Pro.pc'
+[19.358s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages'
+[19.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('OAK_D_Pro', 'pythonpath')
+[19.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath.ps1'
+[19.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath.dsv'
+[19.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath.sh'
+[19.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/bin'
+[19.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(OAK_D_Pro)
+[19.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.ps1'
+[19.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.dsv'
+[19.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.sh'
+[19.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.bash'
+[19.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.zsh'
+[19.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/colcon-core/packages/OAK_D_Pro)
+[19.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.654s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.885s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.886s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.887s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.044s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.ps1'
+[20.251s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/_local_setup_util_ps1.py'
+[20.257s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.ps1'
+[20.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.sh'
+[20.350s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/_local_setup_util_sh.py'
+[20.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.sh'
+[20.448s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.bash'
+[20.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.bash'
+[20.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.zsh'
+[20.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.zsh'
