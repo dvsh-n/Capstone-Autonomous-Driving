@@ -1,0 +1,63 @@
+[6.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.105s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8fb171c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8fe19d20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8fe19d20>>)
+[6.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.456s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws'
+[6.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ubuntu/ros2_ws/install
+[7.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/humble
+[7.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.992s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.075s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.075s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.075s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.219s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.355s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.ps1'
+[8.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/_local_setup_util_ps1.py'
+[8.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.ps1'
+[8.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.sh'
+[8.652s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/_local_setup_util_sh.py'
+[8.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.sh'
+[8.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.bash'
+[8.743s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.bash'
+[8.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.zsh'
+[8.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.zsh'
