@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.001045] (OAK_D_Pro) JobQueued: {'identifier': 'OAK_D_Pro', 'dependencies': OrderedDict()}
+[0.002008] (OAK_D_Pro) JobStarted: {'identifier': 'OAK_D_Pro'}
+[0.100150] (-) TimerEvent: {}
+[0.201547] (-) TimerEvent: {}
+[0.303955] (-) TimerEvent: {}
+[0.407350] (-) TimerEvent: {}
+[0.511513] (-) TimerEvent: {}
+[0.612940] (-) TimerEvent: {}
+[0.714122] (-) TimerEvent: {}
+[0.815110] (-) TimerEvent: {}
+[0.916376] (-) TimerEvent: {}
+[1.017622] (-) TimerEvent: {}
+[1.118517] (-) TimerEvent: {}
+[1.219578] (-) TimerEvent: {}
+[1.320392] (-) TimerEvent: {}
+[1.421168] (-) TimerEvent: {}
+[1.521856] (-) TimerEvent: {}
+[1.622627] (-) TimerEvent: {}
+[1.723310] (-) TimerEvent: {}
+[1.823959] (-) TimerEvent: {}
+[1.924667] (-) TimerEvent: {}
+[2.025338] (-) TimerEvent: {}
+[2.126001] (-) TimerEvent: {}
+[2.226671] (-) TimerEvent: {}
+[2.327407] (-) TimerEvent: {}
+[2.428090] (-) TimerEvent: {}
+[2.528770] (-) TimerEvent: {}
+[2.629482] (-) TimerEvent: {}
+[2.730158] (-) TimerEvent: {}
+[2.830860] (-) TimerEvent: {}
+[2.931570] (-) TimerEvent: {}
+[3.032371] (-) TimerEvent: {}
+[3.133394] (-) TimerEvent: {}
+[3.234746] (-) TimerEvent: {}
+[3.340951] (-) TimerEvent: {}
+[3.442666] (-) TimerEvent: {}
+[3.544029] (-) TimerEvent: {}
+[3.644690] (-) TimerEvent: {}
+[3.745878] (-) TimerEvent: {}
+[3.846601] (-) TimerEvent: {}
+[3.947337] (-) TimerEvent: {}
+[4.048005] (-) TimerEvent: {}
+[4.148731] (-) TimerEvent: {}
+[4.249434] (-) TimerEvent: {}
+[4.350095] (-) TimerEvent: {}
+[4.450810] (-) TimerEvent: {}
+[4.551500] (-) TimerEvent: {}
+[4.652199] (-) TimerEvent: {}
+[4.752909] (-) TimerEvent: {}
+[4.853573] (-) TimerEvent: {}
+[4.954242] (-) TimerEvent: {}
+[5.054982] (-) TimerEvent: {}
+[5.155701] (-) TimerEvent: {}
+[5.256409] (-) TimerEvent: {}
+[5.357159] (-) TimerEvent: {}
+[5.457917] (-) TimerEvent: {}
+[5.558637] (-) TimerEvent: {}
+[5.659390] (-) TimerEvent: {}
+[5.760090] (-) TimerEvent: {}
+[5.860779] (-) TimerEvent: {}
+[5.961530] (-) TimerEvent: {}
+[6.062380] (-) TimerEvent: {}
+[6.163716] (-) TimerEvent: {}
+[6.264710] (-) TimerEvent: {}
+[6.328536] (OAK_D_Pro) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build'], 'cwd': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros/lib:/home/ubuntu/ros2_ws/install/depthai_bridge/lib:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving', 'TERM_PROGRAM_VERSION': '1.86.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '972', 'SYSTEMD_EXEC_PID': '1197', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2674', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:22184', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/Luxonis/depthai/entrypoint:/home/ubuntu/Luxonis/depthai/entrypoint', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/1176,unix/ubuntu-desktop:/tmp/.ICE-unix/1176', 'INVOCATION_ID': 'a0fe246dce8146d788cf81978991c7c6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WGS5H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f01dbe6407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions'}, 'shell': False}
+[6.366911] (-) TimerEvent: {}
+[6.467626] (-) TimerEvent: {}
+[6.568404] (-) TimerEvent: {}
+[6.669149] (-) TimerEvent: {}
+[6.769865] (-) TimerEvent: {}
+[6.870626] (-) TimerEvent: {}
+[6.971337] (-) TimerEvent: {}
+[7.072020] (-) TimerEvent: {}
+[7.172743] (-) TimerEvent: {}
+[7.273433] (-) TimerEvent: {}
+[7.374124] (-) TimerEvent: {}
+[7.474824] (-) TimerEvent: {}
+[7.575536] (-) TimerEvent: {}
+[7.676213] (-) TimerEvent: {}
+[7.776912] (-) TimerEvent: {}
+[7.877626] (-) TimerEvent: {}
+[7.978441] (-) TimerEvent: {}
+[8.079176] (-) TimerEvent: {}
+[8.179849] (-) TimerEvent: {}
+[8.280783] (-) TimerEvent: {}
+[8.381549] (-) TimerEvent: {}
+[8.389745] (OAK_D_Pro) StdoutLine: {'line': b'running develop\n'}
+[8.481713] (-) TimerEvent: {}
+[8.582390] (-) TimerEvent: {}
+[8.683142] (-) TimerEvent: {}
+[8.783833] (-) TimerEvent: {}
+[8.884512] (-) TimerEvent: {}
+[8.985219] (-) TimerEvent: {}
+[9.085924] (-) TimerEvent: {}
+[9.186651] (-) TimerEvent: {}
+[9.287389] (-) TimerEvent: {}
+[9.388072] (-) TimerEvent: {}
+[9.488771] (-) TimerEvent: {}
+[9.589432] (-) TimerEvent: {}
+[9.690105] (-) TimerEvent: {}
+[9.790853] (-) TimerEvent: {}
+[9.891608] (-) TimerEvent: {}
+[9.992285] (-) TimerEvent: {}
+[10.046349] (OAK_D_Pro) StdoutLine: {'line': b'Removing /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK-D-Pro.egg-link (link to .)\n'}
+[10.092585] (-) TimerEvent: {}
+[10.193903] (-) TimerEvent: {}
+[10.269525] (OAK_D_Pro) CommandEnded: {'returncode': 0}
+[10.274338] (OAK_D_Pro) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/OAK_D_Pro', 'build', '--build-base', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build', 'install', '--record', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros/lib:/home/ubuntu/ros2_ws/install/depthai_bridge/lib:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving', 'TERM_PROGRAM_VERSION': '1.86.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '972', 'SYSTEMD_EXEC_PID': '1197', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2674', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:22184', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/Luxonis/depthai/entrypoint:/home/ubuntu/Luxonis/depthai/entrypoint', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/1176,unix/ubuntu-desktop:/tmp/.ICE-unix/1176', 'INVOCATION_ID': 'a0fe246dce8146d788cf81978991c7c6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WGS5H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f01dbe6407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions'}, 'shell': False}
+[10.294106] (-) TimerEvent: {}
+[10.395361] (-) TimerEvent: {}
+[10.496503] (-) TimerEvent: {}
+[10.597196] (-) TimerEvent: {}
+[10.697947] (-) TimerEvent: {}
+[10.798844] (-) TimerEvent: {}
+[10.899573] (-) TimerEvent: {}
+[11.000266] (-) TimerEvent: {}
+[11.100944] (-) TimerEvent: {}
+[11.201629] (-) TimerEvent: {}
+[11.302331] (-) TimerEvent: {}
+[11.403122] (-) TimerEvent: {}
+[11.503787] (-) TimerEvent: {}
+[11.604533] (-) TimerEvent: {}
+[11.705174] (-) TimerEvent: {}
+[11.805882] (-) TimerEvent: {}
+[11.906658] (-) TimerEvent: {}
+[12.007417] (-) TimerEvent: {}
+[12.108090] (-) TimerEvent: {}
+[12.208814] (-) TimerEvent: {}
+[12.215459] (OAK_D_Pro) StdoutLine: {'line': b'running egg_info\n'}
+[12.219935] (OAK_D_Pro) StdoutLine: {'line': b'writing ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/PKG-INFO\n'}
+[12.221280] (OAK_D_Pro) StdoutLine: {'line': b'writing dependency_links to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/dependency_links.txt\n'}
+[12.222554] (OAK_D_Pro) StdoutLine: {'line': b'writing entry points to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/entry_points.txt\n'}
+[12.223695] (OAK_D_Pro) StdoutLine: {'line': b'writing requirements to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/requires.txt\n'}
+[12.224405] (OAK_D_Pro) StdoutLine: {'line': b'writing top-level names to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/top_level.txt\n'}
+[12.237178] (OAK_D_Pro) StdoutLine: {'line': b"reading manifest file '../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'\n"}
+[12.247181] (OAK_D_Pro) StdoutLine: {'line': b"writing manifest file '../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'\n"}
+[12.248960] (OAK_D_Pro) StdoutLine: {'line': b'running build\n'}
+[12.251213] (OAK_D_Pro) StdoutLine: {'line': b'running build_py\n'}
+[12.251761] (OAK_D_Pro) StdoutLine: {'line': b'copying OAK_D_Pro/main.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro\n'}
+[12.252918] (OAK_D_Pro) StdoutLine: {'line': b'running install\n'}
+[12.256258] (OAK_D_Pro) StdoutLine: {'line': b'running install_lib\n'}
+[12.261815] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro\n'}
+[12.262876] (OAK_D_Pro) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro/main.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro\n'}
+[12.264215] (OAK_D_Pro) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro\n'}
+[12.269322] (OAK_D_Pro) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro/main.py to main.cpython-310.pyc\n'}
+[12.276343] (OAK_D_Pro) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro/__init__.py to __init__.cpython-310.pyc\n'}
+[12.278412] (OAK_D_Pro) StdoutLine: {'line': b'running install_data\n'}
+[12.283099] (OAK_D_Pro) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro\n'}
+[12.284192] (OAK_D_Pro) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.291837] (OAK_D_Pro) StdoutLine: {'line': b'Copying ../../build/OAK_D_Pro/OAK_D_Pro.egg-info to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro-0.0.0-py3.10.egg-info\n'}
+[12.298813] (OAK_D_Pro) StdoutLine: {'line': b'running install_scripts\n'}
+[12.308973] (-) TimerEvent: {}
+[12.403723] (OAK_D_Pro) StdoutLine: {'line': b'Installing OAK_D_Pro script to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/OAK_D_Pro\n'}
+[12.405206] (OAK_D_Pro) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/install.log'\n"}
+[12.409335] (-) TimerEvent: {}
+[12.510601] (-) TimerEvent: {}
+[12.611986] (-) TimerEvent: {}
+[12.629605] (OAK_D_Pro) CommandEnded: {'returncode': 0}
+[12.712153] (-) TimerEvent: {}
+[12.812857] (-) TimerEvent: {}
+[12.914041] (-) TimerEvent: {}
+[13.015553] (-) TimerEvent: {}
+[13.118597] (-) TimerEvent: {}
+[13.219613] (-) TimerEvent: {}
+[13.221486] (OAK_D_Pro) JobEnded: {'identifier': 'OAK_D_Pro', 'rc': 0}
+[13.226303] (-) EventReactorShutdown: {}

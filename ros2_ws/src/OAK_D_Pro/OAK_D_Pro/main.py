@@ -50,7 +50,7 @@ class OAK_D_Pro(Node):
         monoRight.setCamera("right")
 
         color.setCamera("color")
-        color.setResolution(dai.ColorCameraProperties.SensorResolution.THE_720_P)
+        color.setResolution(dai.ColorCameraProperties.SensorResolution.THE_1080_P)
 
         imu.enableIMUSensor(dai.IMUSensor.ROTATION_VECTOR, 120)
         imu.setBatchReportThreshold(1)
@@ -99,14 +99,12 @@ class OAK_D_Pro(Node):
             # cv2.imshow("disparity", frame_depth) # B/W 
             frame_depth = cv2.applyColorMap(frame_depth, cv2.COLORMAP_JET)
             self.pub_depth.publish(self.cv_bridge.cv2_to_imgmsg(frame_depth))
-            self.get_logger().info('Publishing Depth')
 
             frame_color = inCamera.getCvFrame()
             self.pub_color.publish(self.cv_bridge.cv2_to_imgmsg(frame_color))
-            self.get_logger().info('Publishing Color')
 
             RotationVector = imuMessage.packets[-1].rotationVector
-            quat_msg = Quaternion(x=RotationVector.x, y=RotationVector.y, z=RotationVector.z, w=RotationVector.real)
+            quat_msg = Quaternion(x=RotationVector.i, y=RotationVector.j, z=RotationVector.k, w=RotationVector.real)
             self.pub_quat.publish(quat_msg)
 
 def main(args=None):

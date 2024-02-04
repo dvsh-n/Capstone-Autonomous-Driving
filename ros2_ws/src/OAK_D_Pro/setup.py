@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'depth_publisher = OAK_D_Pro.main:main'
+        'OAK_D_Pro = OAK_D_Pro.main:main'
         ],
     },
 )

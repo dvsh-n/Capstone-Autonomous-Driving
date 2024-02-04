@@ -1,0 +1,379 @@
+[0.000000] (-) TimerEvent: {}
+[0.001687] (ESPCam-ROS2) JobQueued: {'identifier': 'ESPCam-ROS2', 'dependencies': OrderedDict()}
+[0.002297] (OAK_D_Pro) JobQueued: {'identifier': 'OAK_D_Pro', 'dependencies': OrderedDict()}
+[0.002387] (cv_basics) JobQueued: {'identifier': 'cv_basics', 'dependencies': OrderedDict()}
+[0.002673] (ESPCam-ROS2) JobStarted: {'identifier': 'ESPCam-ROS2'}
+[0.099550] (-) TimerEvent: {}
+[0.202578] (-) TimerEvent: {}
+[0.304296] (-) TimerEvent: {}
+[0.406854] (-) TimerEvent: {}
+[0.511068] (-) TimerEvent: {}
+[0.613962] (-) TimerEvent: {}
+[0.717449] (-) TimerEvent: {}
+[0.818718] (-) TimerEvent: {}
+[0.919917] (-) TimerEvent: {}
+[1.021904] (-) TimerEvent: {}
+[1.076853] (OAK_D_Pro) JobStarted: {'identifier': 'OAK_D_Pro'}
+[1.122246] (-) TimerEvent: {}
+[1.223468] (-) TimerEvent: {}
+[1.330623] (-) TimerEvent: {}
+[1.434092] (-) TimerEvent: {}
+[1.537246] (-) TimerEvent: {}
+[1.638425] (-) TimerEvent: {}
+[1.740095] (-) TimerEvent: {}
+[1.841729] (-) TimerEvent: {}
+[1.943902] (-) TimerEvent: {}
+[2.049708] (-) TimerEvent: {}
+[2.155714] (-) TimerEvent: {}
+[2.171126] (cv_basics) JobStarted: {'identifier': 'cv_basics'}
+[2.255878] (-) TimerEvent: {}
+[2.357191] (-) TimerEvent: {}
+[2.459187] (-) TimerEvent: {}
+[2.561243] (-) TimerEvent: {}
+[2.664005] (-) TimerEvent: {}
+[2.765187] (-) TimerEvent: {}
+[2.866494] (-) TimerEvent: {}
+[2.967936] (-) TimerEvent: {}
+[3.069388] (-) TimerEvent: {}
+[3.178864] (-) TimerEvent: {}
+[3.282800] (-) TimerEvent: {}
+[3.383596] (-) TimerEvent: {}
+[3.484373] (-) TimerEvent: {}
+[3.585089] (-) TimerEvent: {}
+[3.685858] (-) TimerEvent: {}
+[3.786545] (-) TimerEvent: {}
+[3.887278] (-) TimerEvent: {}
+[3.988083] (-) TimerEvent: {}
+[4.088953] (-) TimerEvent: {}
+[4.190683] (-) TimerEvent: {}
+[4.292007] (-) TimerEvent: {}
+[4.392692] (-) TimerEvent: {}
+[4.493427] (-) TimerEvent: {}
+[4.594279] (-) TimerEvent: {}
+[4.695240] (-) TimerEvent: {}
+[4.796388] (-) TimerEvent: {}
+[4.898477] (-) TimerEvent: {}
+[5.000056] (-) TimerEvent: {}
+[5.101193] (-) TimerEvent: {}
+[5.202231] (-) TimerEvent: {}
+[5.302883] (-) TimerEvent: {}
+[5.403627] (-) TimerEvent: {}
+[5.504366] (-) TimerEvent: {}
+[5.605075] (-) TimerEvent: {}
+[5.706427] (-) TimerEvent: {}
+[5.808050] (-) TimerEvent: {}
+[5.910842] (-) TimerEvent: {}
+[6.013035] (-) TimerEvent: {}
+[6.113839] (-) TimerEvent: {}
+[6.214981] (-) TimerEvent: {}
+[6.316147] (-) TimerEvent: {}
+[6.416987] (-) TimerEvent: {}
+[6.517791] (-) TimerEvent: {}
+[6.618528] (-) TimerEvent: {}
+[6.719281] (-) TimerEvent: {}
+[6.820043] (-) TimerEvent: {}
+[6.920954] (-) TimerEvent: {}
+[7.021603] (-) TimerEvent: {}
+[7.122268] (-) TimerEvent: {}
+[7.223050] (-) TimerEvent: {}
+[7.323712] (-) TimerEvent: {}
+[7.424432] (-) TimerEvent: {}
+[7.525082] (-) TimerEvent: {}
+[7.625774] (-) TimerEvent: {}
+[7.726545] (-) TimerEvent: {}
+[7.827302] (-) TimerEvent: {}
+[7.927983] (-) TimerEvent: {}
+[8.028666] (-) TimerEvent: {}
+[8.129383] (-) TimerEvent: {}
+[8.230112] (-) TimerEvent: {}
+[8.331001] (-) TimerEvent: {}
+[8.432482] (-) TimerEvent: {}
+[8.533809] (-) TimerEvent: {}
+[8.635339] (-) TimerEvent: {}
+[8.736508] (-) TimerEvent: {}
+[8.837701] (-) TimerEvent: {}
+[8.940960] (-) TimerEvent: {}
+[9.041705] (-) TimerEvent: {}
+[9.142342] (-) TimerEvent: {}
+[9.243015] (-) TimerEvent: {}
+[9.343709] (-) TimerEvent: {}
+[9.444521] (-) TimerEvent: {}
+[9.545471] (-) TimerEvent: {}
+[9.646266] (-) TimerEvent: {}
+[9.747130] (-) TimerEvent: {}
+[9.848083] (-) TimerEvent: {}
+[9.949497] (-) TimerEvent: {}
+[10.050415] (-) TimerEvent: {}
+[10.151074] (-) TimerEvent: {}
+[10.251753] (-) TimerEvent: {}
+[10.352446] (-) TimerEvent: {}
+[10.453134] (-) TimerEvent: {}
+[10.553863] (-) TimerEvent: {}
+[10.654559] (-) TimerEvent: {}
+[10.755316] (-) TimerEvent: {}
+[10.856031] (-) TimerEvent: {}
+[10.957389] (-) TimerEvent: {}
+[11.060272] (-) TimerEvent: {}
+[11.163907] (-) TimerEvent: {}
+[11.264973] (-) TimerEvent: {}
+[11.365756] (-) TimerEvent: {}
+[11.466884] (-) TimerEvent: {}
+[11.567629] (-) TimerEvent: {}
+[11.668661] (-) TimerEvent: {}
+[11.769868] (-) TimerEvent: {}
+[11.871089] (-) TimerEvent: {}
+[11.971982] (-) TimerEvent: {}
+[12.073781] (-) TimerEvent: {}
+[12.174652] (-) TimerEvent: {}
+[12.283674] (-) TimerEvent: {}
+[12.388747] (-) TimerEvent: {}
+[12.490132] (-) TimerEvent: {}
+[12.591893] (-) TimerEvent: {}
+[12.693500] (-) TimerEvent: {}
+[12.795481] (-) TimerEvent: {}
+[12.900630] (-) TimerEvent: {}
+[13.002913] (-) TimerEvent: {}
+[13.105075] (-) TimerEvent: {}
+[13.206522] (-) TimerEvent: {}
+[13.316532] (-) TimerEvent: {}
+[13.417479] (-) TimerEvent: {}
+[13.518801] (-) TimerEvent: {}
+[13.620611] (-) TimerEvent: {}
+[13.721883] (-) TimerEvent: {}
+[13.822704] (-) TimerEvent: {}
+[13.923872] (-) TimerEvent: {}
+[14.028724] (-) TimerEvent: {}
+[14.130951] (-) TimerEvent: {}
+[14.232489] (-) TimerEvent: {}
+[14.334180] (-) TimerEvent: {}
+[14.438347] (-) TimerEvent: {}
+[14.539356] (-) TimerEvent: {}
+[14.641580] (-) TimerEvent: {}
+[14.748550] (-) TimerEvent: {}
+[14.852699] (-) TimerEvent: {}
+[14.954610] (-) TimerEvent: {}
+[15.059712] (-) TimerEvent: {}
+[15.162332] (-) TimerEvent: {}
+[15.265283] (-) TimerEvent: {}
+[15.366721] (-) TimerEvent: {}
+[15.467633] (-) TimerEvent: {}
+[15.572040] (-) TimerEvent: {}
+[15.673793] (-) TimerEvent: {}
+[15.782190] (-) TimerEvent: {}
+[15.883932] (-) TimerEvent: {}
+[15.989838] (-) TimerEvent: {}
+[16.095261] (-) TimerEvent: {}
+[16.196302] (-) TimerEvent: {}
+[16.302624] (-) TimerEvent: {}
+[16.403658] (-) TimerEvent: {}
+[16.507577] (-) TimerEvent: {}
+[16.610633] (-) TimerEvent: {}
+[16.716732] (-) TimerEvent: {}
+[16.820634] (-) TimerEvent: {}
+[16.923161] (-) TimerEvent: {}
+[17.028501] (-) TimerEvent: {}
+[17.080542] (cv_basics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/cv_basics', 'build', '--build-base', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build', 'install', '--record', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/install.log', '--install-scripts', '$base/lib/cv_basics', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/src/cv_basics', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros/lib:/home/ubuntu/ros2_ws/install/depthai_bridge/lib:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.86.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '972', 'SYSTEMD_EXEC_PID': '1197', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2674', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:22184', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/Luxonis/depthai/entrypoint:/home/ubuntu/Luxonis/depthai/entrypoint', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/1176,unix/ubuntu-desktop:/tmp/.ICE-unix/1176', 'INVOCATION_ID': 'a0fe246dce8146d788cf81978991c7c6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WGS5H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f01dbe6407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions'}, 'shell': False}
+[17.139168] (-) TimerEvent: {}
+[17.193570] (OAK_D_Pro) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/OAK_D_Pro', 'build', '--build-base', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build', 'install', '--record', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros/lib:/home/ubuntu/ros2_ws/install/depthai_bridge/lib:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.86.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '972', 'SYSTEMD_EXEC_PID': '1197', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2674', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:22184', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/Luxonis/depthai/entrypoint:/home/ubuntu/Luxonis/depthai/entrypoint', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/1176,unix/ubuntu-desktop:/tmp/.ICE-unix/1176', 'INVOCATION_ID': 'a0fe246dce8146d788cf81978991c7c6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WGS5H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f01dbe6407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions'}, 'shell': False}
+[17.244100] (-) TimerEvent: {}
+[17.260968] (ESPCam-ROS2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ESPCam-ROS2', 'build', '--build-base', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build', 'install', '--record', '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/install.log', '--install-scripts', '$base/lib/ESPCam-ROS2', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/src/ESPCam-ROS2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros/lib:/home/ubuntu/ros2_ws/install/depthai_bridge/lib:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.86.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '972', 'SYSTEMD_EXEC_PID': '1197', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2674', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:22184', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/Luxonis/depthai/entrypoint:/home/ubuntu/Luxonis/depthai/entrypoint', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/1176,unix/ubuntu-desktop:/tmp/.ICE-unix/1176', 'INVOCATION_ID': 'a0fe246dce8146d788cf81978991c7c6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WGS5H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f01dbe6407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/depthai_bridge:/home/ubuntu/ros2_ws/install/depthai_ros_msgs:/home/ubuntu/ros2_ws/install/depthai_descriptions'}, 'shell': False}
+[17.344225] (-) TimerEvent: {}
+[17.445213] (-) TimerEvent: {}
+[17.546812] (-) TimerEvent: {}
+[17.648043] (-) TimerEvent: {}
+[17.749922] (-) TimerEvent: {}
+[17.851146] (-) TimerEvent: {}
+[17.957384] (-) TimerEvent: {}
+[18.060701] (-) TimerEvent: {}
+[18.162683] (-) TimerEvent: {}
+[18.265844] (-) TimerEvent: {}
+[18.369863] (-) TimerEvent: {}
+[18.472523] (-) TimerEvent: {}
+[18.573554] (-) TimerEvent: {}
+[18.677154] (-) TimerEvent: {}
+[18.781446] (-) TimerEvent: {}
+[18.886157] (-) TimerEvent: {}
+[18.987210] (-) TimerEvent: {}
+[19.090887] (-) TimerEvent: {}
+[19.192626] (-) TimerEvent: {}
+[19.295712] (-) TimerEvent: {}
+[19.398940] (-) TimerEvent: {}
+[19.502775] (-) TimerEvent: {}
+[19.604297] (-) TimerEvent: {}
+[19.706273] (-) TimerEvent: {}
+[19.810431] (-) TimerEvent: {}
+[19.911979] (-) TimerEvent: {}
+[20.013037] (-) TimerEvent: {}
+[20.114337] (-) TimerEvent: {}
+[20.216634] (-) TimerEvent: {}
+[20.317979] (-) TimerEvent: {}
+[20.418994] (-) TimerEvent: {}
+[20.520066] (-) TimerEvent: {}
+[20.621201] (-) TimerEvent: {}
+[20.726215] (-) TimerEvent: {}
+[20.770634] (ESPCam-ROS2) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[20.772902] (ESPCam-ROS2) StderrLine: {'line': b'  warnings.warn(\n'}
+[20.826769] (-) TimerEvent: {}
+[20.928539] (-) TimerEvent: {}
+[21.040695] (-) TimerEvent: {}
+[21.126623] (ESPCam-ROS2) StdoutLine: {'line': b'running egg_info\n'}
+[21.142354] (ESPCam-ROS2) StdoutLine: {'line': b'creating ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info\n'}
+[21.144706] (-) TimerEvent: {}
+[21.148900] (ESPCam-ROS2) StdoutLine: {'line': b'writing ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/PKG-INFO\n'}
+[21.150147] (ESPCam-ROS2) StdoutLine: {'line': b'writing dependency_links to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/dependency_links.txt\n'}
+[21.151189] (ESPCam-ROS2) StdoutLine: {'line': b'writing entry points to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/entry_points.txt\n'}
+[21.154708] (ESPCam-ROS2) StdoutLine: {'line': b'writing requirements to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/requires.txt\n'}
+[21.158853] (ESPCam-ROS2) StdoutLine: {'line': b'writing top-level names to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/top_level.txt\n'}
+[21.164674] (ESPCam-ROS2) StdoutLine: {'line': b"writing manifest file '../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'\n"}
+[21.174859] (cv_basics) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[21.179675] (cv_basics) StderrLine: {'line': b'  warnings.warn(\n'}
+[21.187427] (OAK_D_Pro) StdoutLine: {'line': b'running egg_info\n'}
+[21.190108] (ESPCam-ROS2) StdoutLine: {'line': b"reading manifest file '../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'\n"}
+[21.192767] (OAK_D_Pro) StdoutLine: {'line': b'creating ../../../build/OAK_D_Pro/OAK_D_Pro.egg-info\n'}
+[21.195846] (OAK_D_Pro) StdoutLine: {'line': b'writing ../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/PKG-INFO\n'}
+[21.199477] (OAK_D_Pro) StdoutLine: {'line': b'writing dependency_links to ../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/dependency_links.txt\n'}
+[21.201585] (ESPCam-ROS2) StdoutLine: {'line': b"writing manifest file '../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'\n"}
+[21.203383] (OAK_D_Pro) StdoutLine: {'line': b'writing entry points to ../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/entry_points.txt\n'}
+[21.207596] (OAK_D_Pro) StdoutLine: {'line': b'writing requirements to ../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/requires.txt\n'}
+[21.210691] (OAK_D_Pro) StdoutLine: {'line': b'writing top-level names to ../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/top_level.txt\n'}
+[21.211800] (ESPCam-ROS2) StdoutLine: {'line': b'running build\n'}
+[21.212585] (ESPCam-ROS2) StdoutLine: {'line': b'running build_py\n'}
+[21.215668] (ESPCam-ROS2) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build\n'}
+[21.216452] (ESPCam-ROS2) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib\n'}
+[21.217149] (ESPCam-ROS2) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2\n'}
+[21.217807] (OAK_D_Pro) StdoutLine: {'line': b"writing manifest file '../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'\n"}
+[21.223828] (ESPCam-ROS2) StdoutLine: {'line': b'copying ESPCam-ROS2/cam_pub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2\n'}
+[21.224537] (ESPCam-ROS2) StdoutLine: {'line': b'copying ESPCam-ROS2/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2\n'}
+[21.228052] (ESPCam-ROS2) StdoutLine: {'line': b'running install\n'}
+[21.228754] (ESPCam-ROS2) StdoutLine: {'line': b'running install_lib\n'}
+[21.229441] (OAK_D_Pro) StdoutLine: {'line': b"reading manifest file '../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'\n"}
+[21.235506] (ESPCam-ROS2) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2\n'}
+[21.241719] (ESPCam-ROS2) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2/cam_pub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2\n'}
+[21.246777] (-) TimerEvent: {}
+[21.253159] (ESPCam-ROS2) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2\n'}
+[21.253970] (OAK_D_Pro) StdoutLine: {'line': b"writing manifest file '../../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'\n"}
+[21.260851] (OAK_D_Pro) StdoutLine: {'line': b'running build\n'}
+[21.262704] (OAK_D_Pro) StdoutLine: {'line': b'running build_py\n'}
+[21.263846] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build\n'}
+[21.265014] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build/lib\n'}
+[21.278437] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build/lib/OAK_D_Pro\n'}
+[21.280695] (OAK_D_Pro) StdoutLine: {'line': b'copying OAK_D_Pro/main.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build/lib/OAK_D_Pro\n'}
+[21.285762] (ESPCam-ROS2) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2/cam_pub.py to cam_pub.cpython-310.pyc\n'}
+[21.290184] (OAK_D_Pro) StdoutLine: {'line': b'copying OAK_D_Pro/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build/lib/OAK_D_Pro\n'}
+[21.294952] (OAK_D_Pro) StdoutLine: {'line': b'running install\n'}
+[21.297471] (ESPCam-ROS2) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2/__init__.py to __init__.cpython-310.pyc\n'}
+[21.298761] (OAK_D_Pro) StdoutLine: {'line': b'running install_lib\n'}
+[21.307724] (ESPCam-ROS2) StdoutLine: {'line': b'running install_data\n'}
+[21.309171] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro\n'}
+[21.312440] (OAK_D_Pro) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build/lib/OAK_D_Pro/main.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro\n'}
+[21.316884] (ESPCam-ROS2) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index\n'}
+[21.319963] (ESPCam-ROS2) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index/resource_index\n'}
+[21.321454] (OAK_D_Pro) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/build/lib/OAK_D_Pro/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro\n'}
+[21.325447] (ESPCam-ROS2) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index/resource_index/packages\n'}
+[21.327427] (ESPCam-ROS2) StdoutLine: {'line': b'copying resource/ESPCam-ROS2 -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index/resource_index/packages\n'}
+[21.333020] (OAK_D_Pro) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro/main.py to main.cpython-310.pyc\n'}
+[21.333968] (ESPCam-ROS2) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ESPCam-ROS2\n'}
+[21.334714] (ESPCam-ROS2) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.335414] (OAK_D_Pro) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro/__init__.py to __init__.cpython-310.pyc\n'}
+[21.341054] (OAK_D_Pro) StdoutLine: {'line': b'running install_data\n'}
+[21.342967] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/share/ament_index\n'}
+[21.343822] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/share/ament_index/resource_index\n'}
+[21.348667] (-) TimerEvent: {}
+[21.361075] (OAK_D_Pro) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/share/ament_index/resource_index/packages\n'}
+[21.363156] (OAK_D_Pro) StdoutLine: {'line': b'copying resource/OAK_D_Pro -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/share/ament_index/resource_index/packages\n'}
+[21.364307] (OAK_D_Pro) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/share/OAK_D_Pro\n'}
+[21.368254] (OAK_D_Pro) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.369310] (ESPCam-ROS2) StdoutLine: {'line': b'Copying ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam_ROS2-0.0.0-py3.10.egg-info\n'}
+[21.370433] (OAK_D_Pro) StdoutLine: {'line': b'Copying ../../../build/OAK_D_Pro/OAK_D_Pro.egg-info to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro-0.0.0-py3.10.egg-info\n'}
+[21.377641] (OAK_D_Pro) StdoutLine: {'line': b'running install_scripts\n'}
+[21.390630] (ESPCam-ROS2) StdoutLine: {'line': b'running install_scripts\n'}
+[21.449331] (-) TimerEvent: {}
+[21.555090] (-) TimerEvent: {}
+[21.601304] (OAK_D_Pro) StdoutLine: {'line': b'Installing OAK_D_Pro script to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/OAK_D_Pro/lib/OAK_D_Pro\n'}
+[21.609036] (OAK_D_Pro) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/OAK_D_Pro/install.log'\n"}
+[21.622079] (ESPCam-ROS2) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/install.log'\n"}
+[21.655675] (-) TimerEvent: {}
+[21.668641] (cv_basics) StdoutLine: {'line': b'running egg_info\n'}
+[21.690277] (cv_basics) StdoutLine: {'line': b'creating ../../../build/cv_basics/cv_basics.egg-info\n'}
+[21.698530] (cv_basics) StdoutLine: {'line': b'writing ../../../build/cv_basics/cv_basics.egg-info/PKG-INFO\n'}
+[21.707675] (cv_basics) StdoutLine: {'line': b'writing dependency_links to ../../../build/cv_basics/cv_basics.egg-info/dependency_links.txt\n'}
+[21.716123] (cv_basics) StdoutLine: {'line': b'writing entry points to ../../../build/cv_basics/cv_basics.egg-info/entry_points.txt\n'}
+[21.722860] (cv_basics) StdoutLine: {'line': b'writing requirements to ../../../build/cv_basics/cv_basics.egg-info/requires.txt\n'}
+[21.724362] (cv_basics) StdoutLine: {'line': b'writing top-level names to ../../../build/cv_basics/cv_basics.egg-info/top_level.txt\n'}
+[21.730492] (cv_basics) StdoutLine: {'line': b"writing manifest file '../../../build/cv_basics/cv_basics.egg-info/SOURCES.txt'\n"}
+[21.756138] (-) TimerEvent: {}
+[21.773917] (cv_basics) StdoutLine: {'line': b"reading manifest file '../../../build/cv_basics/cv_basics.egg-info/SOURCES.txt'\n"}
+[21.787357] (cv_basics) StdoutLine: {'line': b"writing manifest file '../../../build/cv_basics/cv_basics.egg-info/SOURCES.txt'\n"}
+[21.791035] (cv_basics) StdoutLine: {'line': b'running build\n'}
+[21.792951] (cv_basics) StdoutLine: {'line': b'running build_py\n'}
+[21.796755] (cv_basics) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build\n'}
+[21.797785] (cv_basics) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib\n'}
+[21.798498] (cv_basics) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib/cv_basics\n'}
+[21.800052] (cv_basics) StdoutLine: {'line': b'copying cv_basics/webcam_sub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib/cv_basics\n'}
+[21.800988] (cv_basics) StdoutLine: {'line': b'copying cv_basics/webcam_pub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib/cv_basics\n'}
+[21.801896] (cv_basics) StdoutLine: {'line': b'copying cv_basics/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib/cv_basics\n'}
+[21.802753] (cv_basics) StdoutLine: {'line': b'running install\n'}
+[21.804402] (cv_basics) StdoutLine: {'line': b'running install_lib\n'}
+[21.818542] (cv_basics) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics\n'}
+[21.819934] (cv_basics) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib/cv_basics/webcam_sub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics\n'}
+[21.821295] (cv_basics) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib/cv_basics/webcam_pub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics\n'}
+[21.824301] (cv_basics) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/build/lib/cv_basics/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics\n'}
+[21.833290] (cv_basics) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics/webcam_sub.py to webcam_sub.cpython-310.pyc\n'}
+[21.837447] (cv_basics) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics/webcam_pub.py to webcam_pub.cpython-310.pyc\n'}
+[21.850434] (cv_basics) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics/__init__.py to __init__.cpython-310.pyc\n'}
+[21.851557] (cv_basics) StdoutLine: {'line': b'running install_data\n'}
+[21.854834] (cv_basics) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/share/ament_index\n'}
+[21.857489] (-) TimerEvent: {}
+[21.860619] (cv_basics) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/share/ament_index/resource_index\n'}
+[21.862624] (cv_basics) StdoutLine: {'line': b'creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/share/ament_index/resource_index/packages\n'}
+[21.866552] (cv_basics) StdoutLine: {'line': b'copying resource/cv_basics -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/share/ament_index/resource_index/packages\n'}
+[21.885282] (cv_basics) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/share/cv_basics\n'}
+[21.886816] (cv_basics) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.916175] (cv_basics) StdoutLine: {'line': b'Copying ../../../build/cv_basics/cv_basics.egg-info to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/python3.10/site-packages/cv_basics-0.0.0-py3.10.egg-info\n'}
+[21.944346] (cv_basics) StdoutLine: {'line': b'running install_scripts\n'}
+[21.957759] (-) TimerEvent: {}
+[22.059111] (-) TimerEvent: {}
+[22.099763] (ESPCam-ROS2) CommandEnded: {'returncode': 0}
+[22.159751] (-) TimerEvent: {}
+[22.218264] (cv_basics) StdoutLine: {'line': b'Installing img_publisher script to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/cv_basics\n'}
+[22.231420] (cv_basics) StdoutLine: {'line': b'Installing img_subscriber script to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/cv_basics/lib/cv_basics\n'}
+[22.238420] (cv_basics) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/cv_basics/install.log'\n"}
+[22.260256] (-) TimerEvent: {}
+[22.362428] (-) TimerEvent: {}
+[22.464550] (-) TimerEvent: {}
+[22.566167] (-) TimerEvent: {}
+[22.669065] (-) TimerEvent: {}
+[22.771090] (-) TimerEvent: {}
+[22.874188] (-) TimerEvent: {}
+[22.976844] (-) TimerEvent: {}
+[23.079169] (-) TimerEvent: {}
+[23.180850] (-) TimerEvent: {}
+[23.282568] (-) TimerEvent: {}
+[23.383843] (-) TimerEvent: {}
+[23.462255] (ESPCam-ROS2) JobEnded: {'identifier': 'ESPCam-ROS2', 'rc': 0}
+[23.475353] (OAK_D_Pro) CommandEnded: {'returncode': 0}
+[23.484452] (-) TimerEvent: {}
+[23.585360] (-) TimerEvent: {}
+[23.686346] (-) TimerEvent: {}
+[23.787549] (-) TimerEvent: {}
+[23.892849] (-) TimerEvent: {}
+[23.995845] (-) TimerEvent: {}
+[24.099942] (-) TimerEvent: {}
+[24.209615] (-) TimerEvent: {}
+[24.312231] (-) TimerEvent: {}
+[24.416779] (-) TimerEvent: {}
+[24.502688] (OAK_D_Pro) JobEnded: {'identifier': 'OAK_D_Pro', 'rc': 0}
+[24.510789] (cv_basics) CommandEnded: {'returncode': 0}
+[24.517022] (-) TimerEvent: {}
+[24.620784] (-) TimerEvent: {}
+[24.723534] (-) TimerEvent: {}
+[24.825290] (-) TimerEvent: {}
+[24.929891] (-) TimerEvent: {}
+[25.033286] (-) TimerEvent: {}
+[25.137344] (-) TimerEvent: {}
+[25.240089] (-) TimerEvent: {}
+[25.341974] (-) TimerEvent: {}
+[25.444604] (-) TimerEvent: {}
+[25.547859] (-) TimerEvent: {}
+[25.590438] (cv_basics) JobEnded: {'identifier': 'cv_basics', 'rc': 0}
+[25.599291] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+[17.261s] Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/src/ESPCam-ROS2': PYTHONPATH=/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ESPCam-ROS2 build --build-base /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build install --record /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/install.log --install-scripts $base/lib/ESPCam-ROS2 --single-version-externally-managed
+[20.769s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[20.771s]   warnings.warn(
+[21.124s] running egg_info
+[21.141s] creating ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info
+[21.147s] writing ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/PKG-INFO
+[21.148s] writing dependency_links to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/dependency_links.txt
+[21.149s] writing entry points to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/entry_points.txt
+[21.153s] writing requirements to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/requires.txt
+[21.157s] writing top-level names to ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/top_level.txt
+[21.162s] writing manifest file '../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+[21.188s] reading manifest file '../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+[21.199s] writing manifest file '../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+[21.209s] running build
+[21.213s] running build_py
+[21.213s] creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build
+[21.214s] creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib
+[21.215s] creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+[21.221s] copying ESPCam-ROS2/cam_pub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+[21.225s] copying ESPCam-ROS2/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+[21.226s] running install
+[21.226s] running install_lib
+[21.237s] creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2
+[21.244s] copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2/cam_pub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2
+[21.251s] copying /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build/lib/ESPCam-ROS2/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2
+[21.286s] byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2/cam_pub.py to cam_pub.cpython-310.pyc
+[21.296s] byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2/__init__.py to __init__.cpython-310.pyc
+[21.306s] running install_data
+[21.317s] creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index
+[21.318s] creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index/resource_index
+[21.324s] creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index/resource_index/packages
+[21.330s] copying resource/ESPCam-ROS2 -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ament_index/resource_index/packages
+[21.332s] copying package.xml -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/share/ESPCam-ROS2
+[21.332s] running install_egg_info
+[21.367s] Copying ../../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam_ROS2-0.0.0-py3.10.egg-info
+[21.389s] running install_scripts
+[21.623s] writing list of installed files to '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/install.log'
+[22.103s] Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ESPCam-Python-ROS_ws/src/ESPCam-ROS2' returned '0': PYTHONPATH=/home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/install/ESPCam-ROS2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ESPCam-ROS2 build --build-base /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/build install --record /home/ubuntu/Desktop/Capstone-Autonomous-Driving/build/ESPCam-ROS2/install.log --install-scripts $base/lib/ESPCam-ROS2 --single-version-externally-managed
