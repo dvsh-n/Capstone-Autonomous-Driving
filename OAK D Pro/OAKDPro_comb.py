@@ -36,6 +36,7 @@ def create_pipeline():
     monoRight.setCamera("right")
 
     color.setCamera("color")
+    color.setResolution(dai.ColorCameraProperties.SensorResolution.THE_720_P)
 
     imu.enableIMUSensor(dai.IMUSensor.ROTATION_VECTOR, 120)
     imu.setBatchReportThreshold(1)
@@ -86,7 +87,7 @@ while True:
     frame_depth = cv2.applyColorMap(frame_depth, cv2.COLORMAP_JET) # Available color maps: https://docs.opencv.org/3.4/d3/d50/group__imgproc__colormap.html
     cv2.imshow("disparity_color", frame_depth)
 
-    frame_color = inCamera.getFrame()
+    frame_color = inCamera.getCvFrame()
     cv2.imshow("Camera", frame_color)
     
     print("Device timestamp imu: " + str(imuMessage.getTimestampDevice()))
