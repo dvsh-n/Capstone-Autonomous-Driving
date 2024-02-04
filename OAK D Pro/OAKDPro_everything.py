@@ -20,7 +20,7 @@ def create_pipeline():
     monoLeft = pipeline.create(dai.node.MonoCamera)
     monoRight = pipeline.create(dai.node.MonoCamera)
     depth = pipeline.create(dai.node.StereoDepth)
-    # color = pipeline.create(dai.node.ColorCamera)
+    color = pipeline.create(dai.node.ColorCamera)
     imu = pipeline.create(dai.node.IMU)
     sync = pipeline.create(dai.node.Sync)
     xoutImu = pipeline.create(dai.node.XLinkOut)
@@ -35,7 +35,7 @@ def create_pipeline():
     monoRight.setResolution(dai.MonoCameraProperties.SensorResolution.THE_400_P)
     monoRight.setCamera("right")
 
-    # color.setCamera("color")
+    color.setCamera("color")
 
     imu.enableIMUSensor(dai.IMUSensor.ROTATION_VECTOR, 120)
     imu.setBatchReportThreshold(1)
@@ -56,6 +56,7 @@ def create_pipeline():
 
     depth.disparity.link(sync.inputs["depth"])
     imu.out.link(sync.inputs["imu"])
+    color.video.link(sync.inputs["video"])
 
     sync.out.link(xoutGrp.input)
 
@@ -77,12 +78,16 @@ while True:
     groupMessage = groupQueue.get()
     inDisparity = groupMessage["depth"]
     imuMessage = groupMessage["imu"]
+    inCamera = groupMessage["video"]
 
-    frame = inDisparity.getFrame()
-    frame = (frame * (255 / depth.initialConfig.getMaxDisparity())).astype(np.uint8) # Normalization for better visualization
-    # cv2.imshow("disparity", frame) # B/W 
-    frame = cv2.applyColorMap(frame, cv2.COLORMAP_JET) # Available color maps: https://docs.opencv.org/3.4/d3/d50/group__imgproc__colormap.html
-    cv2.imshow("disparity_color", frame)
+    frame_depth = inDisparity.getFrame()
+    frame_depth = (frame_depth * (255 / depth.initialConfig.getMaxDisparity())).astype(np.uint8) # Normalization for better visualization
+    # cv2.imshow("disparity", frame_depth) # B/W 
+    frame_depth = cv2.applyColorMap(frame_depth, cv2.COLORMAP_JET) # Available color maps: https://docs.opencv.org/3.4/d3/d50/group__imgproc__colormap.html
+    cv2.imshow("disparity_color", frame_depth)
+
+    frame_color = inCamera.getFrame()
+    cv2.imshow("Camera", frame_color)
     
     print("Device timestamp imu: " + str(imuMessage.getTimestampDevice()))
     latestRotationVector = imuMessage.packets[-1].rotationVector

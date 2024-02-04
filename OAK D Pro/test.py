@@ -1,37 +1,49 @@
 import depthai as dai
 import numpy as np
+import cv2
+from datetime import timedelta
 
-# Create a pipeline
 pipeline = dai.Pipeline()
 
-# Create a depth node
-depth_node = pipeline.createDepth()
-depth_node.setConfidenceThreshold(200)
+monoLeft = pipeline.create(dai.node.MonoCamera)
+monoRight = pipeline.create(dai.node.MonoCamera)
+color = pipeline.create(dai.node.ColorCamera)
+stereo = pipeline.create(dai.node.StereoDepth)
+sync = pipeline.create(dai.node.Sync)
 
-# Create an XLink output
-xout = pipeline.createXLinkOut()
-xout.setStreamName("depth")
-depth_node.depth.link(xout.input)
+xoutGrp = pipeline.create(dai.node.XLinkOut)
 
-# Connect to the device and start the pipeline
+xoutGrp.setStreamName("xout")
+
+monoLeft.setResolution(dai.MonoCameraProperties.SensorResolution.THE_400_P)
+monoLeft.setCamera("left")
+monoRight.setResolution(dai.MonoCameraProperties.SensorResolution.THE_400_P)
+monoRight.setCamera("right")
+
+stereo.setDefaultProfilePreset(dai.node.StereoDepth.PresetMode.HIGH_ACCURACY)
+
+color.setCamera("color")
+
+sync.setSyncThreshold(timedelta(milliseconds=50))
+
+monoLeft.out.link(stereo.left)
+monoRight.out.link(stereo.right)
+
+stereo.disparity.link(sync.inputs["disparity"])
+color.video.link(sync.inputs["video"])
+
+sync.out.link(xoutGrp.input)
+
+disparityMultiplier = 255.0 / stereo.initialConfig.getMaxDisparity()
 with dai.Device(pipeline) as device:
-
-    # Output queue will be used to get the depth frames from the output defined above
-    q_depth = device.getOutputQueue(name="depth", maxSize=4, blocking=False)
-
+    queue = device.getOutputQueue("xout", 10, False)
     while True:
-        in_depth = q_depth.tryGet()  # Retrieve a depth frame
-        
-        if in_depth is not None:
-            # Get the depth frame as a NumPy array
-            frame = in_depth.getFrame()
-            # The depth frame is in fixed-point representation, converting it to meters
-            depth_meters = frame.astype(np.float32) / 1000.0  # Assuming the depth is in millimeters
-            print(depth_meters)
-            # Use `depth_meters` NumPy array for further processing
-            print("Depth frame in meters:", depth_meters)
-
-            # Add your code here to process the depth data
-
-            # Exit loop after processing one frame for demonstration
+        msgGrp = queue.get()
+        for name, msg in msgGrp:
+            frame = msg.getCvFrame()
+            if name == "disparity":
+                frame = (frame * disparityMultiplier).astype(np.uint8)
+                frame = cv2.applyColorMap(frame, cv2.COLORMAP_JET)
+            cv2.imshow(name, frame)
+        if cv2.waitKey(1) == ord("q"):
             break
