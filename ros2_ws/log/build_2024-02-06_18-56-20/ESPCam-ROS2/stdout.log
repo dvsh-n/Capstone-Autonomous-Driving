@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info
+writing manifest file '../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+writing manifest file '../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/ESPCam-ROS2/build
+creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/ESPCam-ROS2/build/lib
+creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+copying ESPCam-ROS2/cam_pub.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+copying ESPCam-ROS2/__init__.py -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/ESPCam-ROS2/build/lib/ESPCam-ROS2
+running install
+running install_lib
+creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2
+byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2/cam_pub.py to cam_pub.cpython-310.pyc
+byte-compiling /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam-ROS2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/share/ament_index
+creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/share/ament_index/resource_index
+creating /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/share/ament_index/resource_index/packages
+copying resource/ESPCam-ROS2 -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/share/ESPCam-ROS2
+running install_egg_info
+Copying ../../build/ESPCam-ROS2/ESPCam_ROS2.egg-info to /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/ESPCam-ROS2/lib/python3.10/site-packages/ESPCam_ROS2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/ESPCam-ROS2/install.log'
