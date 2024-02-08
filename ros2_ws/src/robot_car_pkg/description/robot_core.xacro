@@ -20,11 +20,6 @@
     </material>
 
     <!-- BASE LINK -->
-    <joint name="world_to_base", type="floating">
-        <parent link="world"/>
-        <child link="base_link"/>
-    <joint>
-
     <link name="base_link">
     </link>
 
@@ -58,7 +53,7 @@
     
     <!-- LEFT BACK WHEEL LINK -->
 
-    <joint name="left_back_wheel_joint" type="fixed">
+    <joint name="left_back_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="left_back_wheel"/>
         <origin xyz="-0.1 0.095 0.0" rpy="-${pi/2} 0 0" />
@@ -84,7 +79,7 @@
 
     <!-- LEFT FRONT WHEEL LINK -->
 
-    <joint name="left_front_wheel_joint" type="fixed">
+    <joint name="left_front_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="left_front_wheel"/>
         <origin xyz="0.1 0.095 0.0" rpy="-${pi/2} 0 0" />
@@ -110,7 +105,7 @@
 
     <!-- RIGHT BACK WHEEL LINK -->
 
-    <joint name="right_back_wheel_joint" type="fixed">
+    <joint name="right_back_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_back_wheel"/>
         <origin xyz="-0.1 -0.095 0.0" rpy="${pi/2} 0 0" />
@@ -136,7 +131,7 @@
 
     <!-- RIGHT BACK WHEEL LINK -->
 
-    <joint name="right_front_wheel_joint" type="fixed">
+    <joint name="right_front_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_front_wheel"/>
         <origin xyz="0.1 -0.095 0.0" rpy="${pi/2} 0 0" />
