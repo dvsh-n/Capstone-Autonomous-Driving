@@ -1,0 +1,43 @@
+[2.340s] Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros -- -j4 -l4
+[2.623s] [ 77%] Built target rplidar_composition_node
+[2.755s] [100%] Built target rplidar_composition
+[3.081s] Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros -- -j4 -l4
+[3.631s] Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros
+[3.661s] -- Install configuration: ""
+[3.663s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[3.664s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch
+[3.665s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[3.665s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[3.666s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[3.666s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[3.667s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[3.667s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[3.668s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[3.669s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[3.669s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[3.670s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[3.670s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[3.670s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[3.671s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/include
+[3.672s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/include/visibility.h
+[3.672s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp
+[3.673s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[3.675s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[3.675s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[3.676s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[3.676s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[3.677s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[3.677s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[3.678s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[3.679s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[3.679s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[3.679s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[3.680s] -- Installing: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[3.682s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[3.683s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[3.683s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.684s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.684s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[3.685s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[3.685s] -- Up-to-date: /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[3.691s] Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros

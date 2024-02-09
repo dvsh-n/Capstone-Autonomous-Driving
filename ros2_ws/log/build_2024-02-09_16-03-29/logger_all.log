@@ -1,0 +1,262 @@
+[6.605s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.606s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff808fb2e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff80bf8a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff80bf8a60>>)
+[6.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.935s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws'
+[6.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.003s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.003s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.003s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.004s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.004s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.004s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.007s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['ignore', 'ignore_ament_install']
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'ignore'
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'ignore_ament_install'
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['colcon_pkg']
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'colcon_pkg'
+[7.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['colcon_meta']
+[7.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'colcon_meta'
+[7.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extensions ['ros']
+[7.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/OAK_D_Pro) by extension 'ros'
+[7.023s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OAK_D_Pro' with type 'ros.ament_python' and name 'OAK_D_Pro'
+[7.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extension 'ignore'
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extension 'ignore_ament_install'
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extensions ['colcon_pkg']
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extension 'colcon_pkg'
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extensions ['colcon_meta']
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extension 'colcon_meta'
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extensions ['ros']
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_pkg) by extension 'ros'
+[7.027s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car_pkg' with type 'ros.ament_cmake' and name 'robot_car_pkg'
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore_ament_install'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_pkg']
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_pkg'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_meta']
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_meta'
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ros']
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ros'
+[7.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[7.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.735s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install
+[7.817s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ubuntu/ros2_ws/install
+[7.906s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/humble
+[7.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.373s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_args' from command line to 'None'
+[8.373s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_target' from command line to 'None'
+[8.373s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.373s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_clean_cache' from command line to 'False'
+[8.373s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_clean_first' from command line to 'False'
+[8.373s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'cmake_force_configure' from command line to 'False'
+[8.374s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'ament_cmake_args' from command line to 'None'
+[8.374s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'catkin_cmake_args' from command line to 'None'
+[8.374s] Level 5:colcon.colcon_core.verb:set package 'OAK_D_Pro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.374s] DEBUG:colcon.colcon_core.verb:Building package 'OAK_D_Pro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro', 'merge_install': False, 'path': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro', 'symlink_install': False, 'test_result_base': None}
+[8.454s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'cmake_args' from command line to 'None'
+[8.454s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'cmake_target' from command line to 'None'
+[8.455s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.455s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[8.455s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[8.455s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[8.455s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[8.455s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[8.455s] Level 5:colcon.colcon_core.verb:set package 'robot_car_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.455s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg', 'merge_install': False, 'path': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/robot_car_pkg', 'symlink_install': False, 'test_result_base': None}
+[8.535s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[8.536s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.537s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/rplidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[8.616s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.699s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro' with build type 'ament_python'
+[8.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('OAK_D_Pro', 'ament_prefix_path')
+[8.797s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/ament_prefix_path.ps1'
+[8.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/ament_prefix_path.dsv'
+[8.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/ament_prefix_path.sh'
+[8.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/robot_car_pkg' with build type 'ament_cmake'
+[9.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/robot_car_pkg'
+[9.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.701s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/rplidar_ros2' with build type 'ament_cmake'
+[9.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/rplidar_ros2'
+[9.786s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.565s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro'
+[11.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg -- -j4 -l4
+[12.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros -- -j4 -l4
+[12.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg -- -j4 -l4
+[12.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg
+[12.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_pkg)
+[12.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg
+[12.787s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg' for CMake module files
+[12.790s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg' for CMake config files
+[12.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_pkg', 'cmake_prefix_path')
+[12.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/hook/cmake_prefix_path.ps1'
+[12.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/hook/cmake_prefix_path.dsv'
+[12.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/hook/cmake_prefix_path.sh'
+[12.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/bin'
+[12.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/lib/pkgconfig/robot_car_pkg.pc'
+[12.917s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/lib/python3.10/site-packages'
+[12.918s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/bin'
+[13.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.ps1'
+[13.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.dsv'
+[13.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.sh'
+[13.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.bash'
+[13.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.zsh'
+[13.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/colcon-core/packages/robot_car_pkg)
+[13.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros -- -j4 -l4
+[13.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_pkg)
+[13.355s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg' for CMake module files
+[13.358s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg' for CMake config files
+[13.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_pkg', 'cmake_prefix_path')
+[13.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/hook/cmake_prefix_path.ps1'
+[13.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/hook/cmake_prefix_path.dsv'
+[13.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/hook/cmake_prefix_path.sh'
+[13.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/bin'
+[13.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/lib/pkgconfig/robot_car_pkg.pc'
+[13.469s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/lib/python3.10/site-packages'
+[13.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/bin'
+[13.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.ps1'
+[13.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.dsv'
+[13.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.sh'
+[13.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.bash'
+[13.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.zsh'
+[13.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/colcon-core/packages/robot_car_pkg)
+[13.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros
+[13.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[13.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/rplidar_ros
+[13.755s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros' for CMake module files
+[13.759s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros' for CMake config files
+[13.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[13.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[13.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[13.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[13.870s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib'
+[13.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[13.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[13.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[13.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[13.982s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/bin'
+[13.983s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[13.984s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[13.985s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/bin'
+[14.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[14.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[14.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[14.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[14.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[14.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[14.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[14.532s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros' for CMake module files
+[14.535s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros' for CMake config files
+[14.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[14.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[14.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[14.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[14.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib'
+[14.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[14.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[14.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[14.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[14.712s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/bin'
+[14.713s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[14.713s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[14.714s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/bin'
+[14.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[14.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[14.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[14.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[14.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[14.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[14.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro': PYTHONPATH=/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/OAK_D_Pro build --build-base /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build install --record /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/install.log --single-version-externally-managed
+[16.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro' returned '0': PYTHONPATH=/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/OAK_D_Pro build --build-base /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build install --record /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/install.log --single-version-externally-managed
+[16.478s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro' for CMake module files
+[16.480s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro' for CMake config files
+[16.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib'
+[16.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/bin'
+[16.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/pkgconfig/OAK_D_Pro.pc'
+[16.485s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages'
+[16.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('OAK_D_Pro', 'pythonpath')
+[16.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath.ps1'
+[16.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath.dsv'
+[16.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/hook/pythonpath.sh'
+[16.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/bin'
+[16.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(OAK_D_Pro)
+[16.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.ps1'
+[16.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.dsv'
+[16.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.sh'
+[16.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.bash'
+[16.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro/package.zsh'
+[16.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/colcon-core/packages/OAK_D_Pro)
+[16.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.679s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.680s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.789s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.848s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.ps1'
+[16.935s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/_local_setup_util_ps1.py'
+[16.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.ps1'
+[17.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.sh'
+[17.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/_local_setup_util_sh.py'
+[17.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.sh'
+[17.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.bash'
+[17.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.bash'
+[17.216s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/local_setup.zsh'
+[17.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/setup.zsh'
