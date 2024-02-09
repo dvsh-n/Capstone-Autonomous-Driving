@@ -1,8 +1,9 @@
 /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/view_rviz.rviz
-/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot_core.xacro
-/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot.urdf.xacro
 /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/inertial_macros.xacro
+/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot.urdf.xacro
+/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot_core.xacro
 /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/rsp.launch.py
+/home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/launch_sim.launch.py
 /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/ament_index/resource_index/package_run_dependencies/robot_car_pkg
 /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/ament_index/resource_index/parent_prefix_path/robot_car_pkg
 /home/ubuntu/Desktop/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/environment/ament_prefix_path.sh
