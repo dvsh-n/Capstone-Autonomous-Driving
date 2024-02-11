@@ -99,11 +99,9 @@ class OAK_D_Pro(Node):
             # cv2.imshow("disparity", frame_depth) # B/W 
             frame_depth = cv2.applyColorMap(frame_depth, cv2.COLORMAP_JET)
             self.pub_depth.publish(self.cv_bridge.cv2_to_imgmsg(frame_depth))
-            self.get_logger().info('Publishing Depth')
 
             frame_color = inCamera.getCvFrame()
             self.pub_color.publish(self.cv_bridge.cv2_to_imgmsg(frame_color))
-            self.get_logger().info('Publishing Color')
 
             RotationVector = imuMessage.packets[-1].rotationVector
             quat_msg = Quaternion(x=RotationVector.i, y=RotationVector.j, z=RotationVector.k, w=RotationVector.real)

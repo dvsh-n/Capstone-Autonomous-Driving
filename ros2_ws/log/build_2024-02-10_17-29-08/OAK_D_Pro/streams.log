@@ -1,0 +1,42 @@
+[0.656s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/OAK_D_Pro build --build-base /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build install --record /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/install.log --single-version-externally-managed
+[0.852s] running egg_info
+[0.852s] creating ../../build/OAK_D_Pro/OAK_D_Pro.egg-info
+[0.852s] writing ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/PKG-INFO
+[0.852s] writing dependency_links to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/dependency_links.txt
+[0.853s] writing entry points to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/entry_points.txt
+[0.853s] writing requirements to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/requires.txt
+[0.853s] writing top-level names to ../../build/OAK_D_Pro/OAK_D_Pro.egg-info/top_level.txt
+[0.853s] writing manifest file '../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'
+[0.854s] reading manifest file '../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'
+[0.855s] writing manifest file '../../build/OAK_D_Pro/OAK_D_Pro.egg-info/SOURCES.txt'
+[0.855s] running build
+[0.855s] running build_py
+[0.855s] creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build
+[0.855s] creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib
+[0.855s] creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro
+[0.855s] copying OAK_D_Pro/main.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro
+[0.855s] copying OAK_D_Pro/__init__.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro
+[0.855s] copying OAK_D_Pro/transforms.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro
+[0.856s] running install
+[0.856s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.856s]   warnings.warn(
+[0.856s] running install_lib
+[0.856s] creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro
+[0.857s] copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro/main.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro
+[0.857s] copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro/__init__.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro
+[0.857s] copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build/lib/OAK_D_Pro/transforms.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro
+[0.857s] byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro/main.py to main.cpython-310.pyc
+[0.858s] byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro/__init__.py to __init__.cpython-310.pyc
+[0.858s] byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro/transforms.py to transforms.cpython-310.pyc
+[0.858s] running install_data
+[0.859s] creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/ament_index
+[0.859s] creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/ament_index/resource_index
+[0.859s] creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/ament_index/resource_index/packages
+[0.859s] copying resource/OAK_D_Pro -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/ament_index/resource_index/packages
+[0.859s] copying package.xml -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/share/OAK_D_Pro
+[0.859s] running install_egg_info
+[0.861s] Copying ../../build/OAK_D_Pro/OAK_D_Pro.egg-info to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages/OAK_D_Pro-0.0.0-py3.10.egg-info
+[0.861s] running install_scripts
+[0.879s] Installing OAK_D_Pro script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/OAK_D_Pro
+[0.879s] writing list of installed files to '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/install.log'
+[0.902s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/OAK_D_Pro' returned '0': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/OAK_D_Pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/OAK_D_Pro build --build-base /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/build install --record /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/OAK_D_Pro/install.log --single-version-externally-managed

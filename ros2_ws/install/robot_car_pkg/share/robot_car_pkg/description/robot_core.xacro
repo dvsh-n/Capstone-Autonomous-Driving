@@ -23,15 +23,6 @@
     <link name="base_link">
     </link>
 
-    <joint name="base_footprint_joint" type="fixed">
-        <parent link="base_link"/>
-        <child link="base_footprint"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-    </joint>
-
-    <link name="base_footprint">
-    </link>
-
     <!-- CHASSIS LINK -->
 
     <joint name="chassis_joint" type="fixed">
@@ -95,7 +86,7 @@
 
     <!-- LEFT FRONT WHEEL LINK -->
 
-    <joint name="left_front_wheel_joint" type="continuous">
+    <joint name="left_front_wheel_joint" type="fixed">
         <parent link="base_link"/>
         <child link="left_front_wheel"/>
         <origin xyz="0.1 0.095 0.0" rpy="-${pi/2} 0 0"/>
@@ -153,9 +144,9 @@
         <material>Gazebo/Blue</material>
     </gazebo>
 
-    <!-- RIGHT BACK WHEEL LINK -->
+    <!-- RIGHT FRONT WHEEL LINK -->
 
-    <joint name="right_front_wheel_joint" type="continuous">
+    <joint name="right_front_wheel_joint" type="fixed">
         <parent link="base_link"/>
         <child link="right_front_wheel"/>
         <origin xyz="0.1 -0.095 0.0" rpy="${pi/2} 0 0"/>
