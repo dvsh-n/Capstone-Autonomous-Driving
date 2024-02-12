@@ -1,2 +1,1 @@
-source;share/robot_car_pkg/environment/ament_prefix_path.sh
-source;share/robot_car_pkg/environment/path.sh
+/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/ament_cmake_environment_hooks/local_setup.dsv

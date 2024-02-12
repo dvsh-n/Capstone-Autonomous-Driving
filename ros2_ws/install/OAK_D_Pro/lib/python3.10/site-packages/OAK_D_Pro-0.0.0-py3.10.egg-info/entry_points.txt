@@ -1,3 +1,0 @@
-[console_scripts]
-OAK_D_Pro = OAK_D_Pro.main:main
-
