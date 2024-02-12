@@ -1,7 +1,7 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
-
+# sudo chmod 777 /dev/ttyUSB0
 def generate_launch_description():
     return LaunchDescription([
         Node(
