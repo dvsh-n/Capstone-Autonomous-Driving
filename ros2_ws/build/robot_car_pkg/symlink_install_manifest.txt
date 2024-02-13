@@ -1,5 +1,7 @@
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/mapper_params_online_async.yaml
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/view_rviz.rviz
+/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/camera.xacro
+/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/depth_camera.xacro
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/gazebo_control.xacro
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/inertial_macros.xacro
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/lidar.xacro
