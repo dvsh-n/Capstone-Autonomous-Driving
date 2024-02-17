@@ -9,6 +9,7 @@ setup.py
 ../../build/oak_d_pro/oak_d_pro.egg-info/top_level.txt
 ../../build/oak_d_pro/oak_d_pro.egg-info/zip-safe
 oak_d_pro/__init__.py
+oak_d_pro/cam_info.py
 oak_d_pro/main.py
 resource/oak_d_pro
 test/test_copyright.py
