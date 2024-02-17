@@ -1,4 +1,4 @@
 [console_scripts]
-cam_info_pub = cam_info_pu:main
+cam_info_pub = cam_info:main
 oak_d_pro = oak_d_pro.main:main
 

@@ -6,7 +6,7 @@ import yaml
 class cam_info_pub(Node):
 
     def __init__(self):
-        super().__init__('camera_info_publisher')
+        super().__init__('camera_info_pub')
         self.publisher = self.create_publisher(CameraInfo, 'oak_d_pro/camera_info', 10)
         self.timer = self.create_timer(1.0, self.publish_camera_info)
         self.camera_info = self.load_camera_info('/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/oak_d_pro/config/rgbcam_config.yaml')

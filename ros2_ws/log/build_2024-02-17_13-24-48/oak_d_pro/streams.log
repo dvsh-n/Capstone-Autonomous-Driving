@@ -1,0 +1,25 @@
+[0.971s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/oak_d_pro': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/oak_d_pro build --build-base /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build install --record /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/install.log --single-version-externally-managed
+[1.215s] running egg_info
+[1.215s] writing ../../build/oak_d_pro/oak_d_pro.egg-info/PKG-INFO
+[1.215s] writing dependency_links to ../../build/oak_d_pro/oak_d_pro.egg-info/dependency_links.txt
+[1.215s] writing entry points to ../../build/oak_d_pro/oak_d_pro.egg-info/entry_points.txt
+[1.215s] writing requirements to ../../build/oak_d_pro/oak_d_pro.egg-info/requires.txt
+[1.215s] writing top-level names to ../../build/oak_d_pro/oak_d_pro.egg-info/top_level.txt
+[1.217s] reading manifest file '../../build/oak_d_pro/oak_d_pro.egg-info/SOURCES.txt'
+[1.218s] writing manifest file '../../build/oak_d_pro/oak_d_pro.egg-info/SOURCES.txt'
+[1.218s] running build
+[1.218s] running build_py
+[1.218s] copying oak_d_pro/cam_info.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build/lib/oak_d_pro
+[1.218s] running install
+[1.218s] running install_lib
+[1.219s] copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build/lib/oak_d_pro/cam_info.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro
+[1.219s] byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro/cam_info.py to cam_info.cpython-310.pyc
+[1.220s] running install_data
+[1.220s] running install_egg_info
+[1.222s] removing '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro-0.0.0-py3.10.egg-info' (and everything under it)
+[1.222s] Copying ../../build/oak_d_pro/oak_d_pro.egg-info to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro-0.0.0-py3.10.egg-info
+[1.223s] running install_scripts
+[1.243s] Installing cam_info_pub script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/oak_d_pro
+[1.243s] Installing oak_d_pro script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/oak_d_pro
+[1.243s] writing list of installed files to '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/install.log'
+[1.263s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/oak_d_pro' returned '0': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/oak_d_pro build --build-base /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build install --record /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/install.log --single-version-externally-managed
