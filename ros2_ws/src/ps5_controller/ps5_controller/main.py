@@ -50,7 +50,7 @@ class ps5_controller(Node):
     def run(self):
         for event in self.gamepad.read_loop():
             if event.type == ecodes.EV_ABS and event.code in self.absolutes:                    
-                action, value = self.absolutes[event.code], event.value
+                value = event.value
 
                 match event.code:
                     case 0: self.data[0] = value # Left Joy left-right

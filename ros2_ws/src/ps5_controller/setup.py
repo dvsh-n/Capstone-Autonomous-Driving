@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'ps5_controller = ps5_controller.main:main'
         ],
     },
 )
