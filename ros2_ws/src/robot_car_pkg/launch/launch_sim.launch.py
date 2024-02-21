@@ -7,6 +7,9 @@ from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
+from launch.actions import RegisterEventHandler
+from launch.event_handlers import OnProcessExit
+
 from launch_ros.actions import Node
 
 
@@ -22,6 +25,12 @@ def generate_launch_description():
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory(package_name),'launch','rsp.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true'}.items()
+    )
+
+    joystick = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','joystick.launch.py'
                 )]), launch_arguments={'use_sim_time': 'true'}.items()
     )
 
@@ -43,17 +52,32 @@ def generate_launch_description():
         arguments=["diff_cont"],
     )
 
+    delayed_diff_drive_spawner = RegisterEventHandler(
+        event_handler=OnProcessExit(
+            target_action=spawn_entity,
+            on_exit=[diff_drive_spawner],
+        )
+    )
+
     joint_broad_spawner = Node(
         package="controller_manager",
         executable="spawner",
         arguments=["joint_broad"],
     )
 
+    delayed_join_broad_spawner = RegisterEventHandler(
+        event_handler=OnProcessExit(
+            target_action=spawn_entity,
+            on_exit=[joint_broad_spawner],
+        )
+    )
+
     # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
+        joystick,
         spawn_entity,
-        diff_drive_spawner,
-        joint_broad_spawner
+        delayed_diff_drive_spawner,
+        delayed_join_broad_spawner
     ])

@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/joystick.yaml
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/mapper_params_online_async.yaml
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/my_controller.yaml
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/view_rviz.rviz
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/camera.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/depth_camera.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/gazebo_control.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/inertial_macros.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/lidar.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot.urdf.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot_core.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/ros2_control.xacro
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/joystick.launch.py
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/launch_sim.launch.py
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/rplidar.launch.py
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/rplidar_rviz.launch.py
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/rsp.launch.py
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/ament_index/resource_index/package_run_dependencies/robot_car_pkg
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/ament_index/resource_index/parent_prefix_path/robot_car_pkg
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/environment/path.sh
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/environment/path.dsv
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/local_setup.bash
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/local_setup.sh
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/local_setup.zsh
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/local_setup.dsv
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.dsv
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/ament_index/resource_index/packages/robot_car_pkg
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/cmake/robot_car_pkgConfig.cmake
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/cmake/robot_car_pkgConfig-version.cmake
+-- Symlinking: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/package.xml
