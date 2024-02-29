@@ -1,3 +1,4 @@
+/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/ekf.yaml
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/joystick.yaml
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/mapper_params_online_async.yaml
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/config/my_controller.yaml
@@ -10,6 +11,7 @@
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot.urdf.xacro
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/robot_core.xacro
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/description/ros2_control.xacro
+/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/ekf_node.launch.py
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/joystick.launch.py
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/launch_sim.launch.py
 /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/robot_car_pkg/share/robot_car_pkg/launch/rplidar.launch.py

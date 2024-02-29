@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image # Image is the message type
-from geometry_msgs.msg import Quaternion
+from sensor_msgs.msg import Imu
 from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Images
 from datetime import timedelta
 import cv2 # OpenCV library
@@ -15,7 +15,7 @@ class oak_d_pro(Node):
         super().__init__('oak_d_pro')
         self.pub_depth = self.create_publisher(Image, 'oak_d_pro/depth', 10)
         self.pub_color = self.create_publisher(Image, 'oak_d_pro/color', 10)
-        self.pub_quat = self.create_publisher(Quaternion, 'oak_d_pro/imu/quaternion', 10)
+        self.pub_imu = self.create_publisher(Imu, 'oak_d_pro/imu', 10)
         self.pipeline, self.depth  = self.create_pipeline()
         self.cv_bridge = CvBridge()
 
@@ -52,7 +52,9 @@ class oak_d_pro(Node):
         color.setCamera("color")
         color.setResolution(dai.ColorCameraProperties.SensorResolution.THE_1080_P)
 
-        imu.enableIMUSensor(dai.IMUSensor.ROTATION_VECTOR, 120)
+        imu.enableIMUSensor(dai.IMUSensor.ROTATION_VECTOR, 100)
+        imu.enableIMUSensor(dai.IMUSensor.ACCELEROMETER_RAW, 100)
+        imu.enableIMUSensor(dai.IMUSensor.GYROSCOPE_RAW, 100)
         imu.setBatchReportThreshold(1)
         imu.setMaxBatchReports(10)
         
@@ -92,6 +94,7 @@ class oak_d_pro(Node):
             groupMessage = groupQueue.get()
             inDisparity = groupMessage["depth"]
             imuMessage = groupMessage["imu"]
+            imuPackets = imuMessage.packets[-1]
             inCamera = groupMessage["video"]
 
             frame_depth = inDisparity.getFrame()
@@ -108,9 +111,28 @@ class oak_d_pro(Node):
             color_msg.header.frame_id = "camera_link_optical"
             self.pub_color.publish(color_msg)
 
-            RotationVector = imuMessage.packets[-1].rotationVector
-            quat_msg = Quaternion(x=RotationVector.i, y=RotationVector.j, z=RotationVector.k, w=RotationVector.real)
-            self.pub_quat.publish(quat_msg)
+            if imuMessage is not None:
+                imu_msg = Imu()
+                imu_msg.header.stamp = self.get_clock().now().to_msg()
+                imu_msg.header.frame_id = "imu_frame"
+
+                # Accelerometer data
+                imu_msg.linear_acceleration.x = imuPackets.acceleroMeter.x
+                imu_msg.linear_acceleration.y = imuPackets.acceleroMeter.y
+                imu_msg.linear_acceleration.z = imuPackets.acceleroMeter.z
+
+                # Gyroscope data
+                imu_msg.angular_velocity.x = imuPackets.gyroscope.x
+                imu_msg.angular_velocity.y = imuPackets.gyroscope.y
+                imu_msg.angular_velocity.z = imuPackets.gyroscope.z
+
+                # Orientation data (quaternion)
+                imu_msg.orientation.w = imuPackets.rotationVector.real
+                imu_msg.orientation.x = imuPackets.rotationVector.i
+                imu_msg.orientation.y = imuPackets.rotationVector.j
+                imu_msg.orientation.z = imuPackets.rotationVector.k
+
+                self.pub_imu.publish(imu_msg)
 
 def main(args=None):
     rclpy.init(args=args)

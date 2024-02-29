@@ -135,8 +135,8 @@ ekf_filter_node:
         # odom0_pose_rejection_threshold: 5.0
         # odom0_twist_rejection_threshold: 1.0
 
-        imu0: imu/data
-        imu0_config: [True, True, True,  # Enable x, y, z position
+        imu0: /oak_d_pro/imu
+        imu0_config: [False, False, False,  # Enable x, y, z position
                       False,  False,  False,  # Roll, pitch, yaw (orientation)
                       False, False, False,  # Velocity (we're integrating this from acceleration)
                       True,  True,  True,  # x_accel, y_accel, z_accel
