@@ -9,6 +9,7 @@
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <depend>example_interfaces</depend>
   <depend>evdev</depend>
 
   <test_depend>ament_copyright</test_depend>

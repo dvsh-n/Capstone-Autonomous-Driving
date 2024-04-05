@@ -1,0 +1,26 @@
+running develop
+Removing /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5-controller.egg-link (link to .)
+running egg_info
+writing ../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt
+writing requirements to ../../build/ps5_controller/ps5_controller.egg-info/requires.txt
+writing top-level names to ../../build/ps5_controller/ps5_controller.egg-info/top_level.txt
+reading manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ps5_controller/main.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/build/lib/ps5_controller
+running install
+running install_lib
+creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller
+copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/build/lib/ps5_controller/main.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller
+copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/build/lib/ps5_controller/__init__.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller
+byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller/main.py to main.cpython-310.pyc
+byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/ps5_controller/ps5_controller.egg-info to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ps5_controller script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/ps5_controller
+writing list of installed files to '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/install.log'

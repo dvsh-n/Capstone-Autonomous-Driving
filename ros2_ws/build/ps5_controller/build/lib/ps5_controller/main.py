@@ -1,16 +1,19 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float64MultiArray
-from evdev import InputDevice, categorize, ecodes       
+from example_interfaces.msg import Float64
+from evdev import InputDevice, categorize, ecodes   
+import threading    
 
 class ps5_controller(Node):
 
     def __init__(self):
         super().__init__('ps5_controller')
-        self.publisher_ = self.create_publisher(Float64MultiArray, 'ps5/analog_data', 10)
+        self.pub_R2 = self.create_publisher(Float64, 'ps5/R2', 10)
+        self.pub_L2 = self.create_publisher(Float64, 'ps5/L2', 10)
+        self.pub_L_Joy = self.create_publisher(Float64, 'ps5/L_Joy', 10)
         timer_period = 1/30  # 30Hz
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.gamepad = InputDevice('/dev/input/event4') 
+        self.gamepad = InputDevice('/dev/input/event18') 
         self.button_presses = {                          
             308: 'square',
             304: 'x',
@@ -41,31 +44,43 @@ class ps5_controller(Node):
             16: 'leftpad left/right',               # -1 = left, 0 = stop pressing, 1 = right
             17: 'leftpad up/down',                  # -1 = up, 0 = stop pressing, 1 = down
         }
-        self.data = [0,0,0,0,0,0] 
+        self.R2_val = 0.0
+        self.L2_val = 0.0
+        self.L_Joy_val = 0.0
+
+        self.gamepad_thread = threading.Thread(target=self.ps5_handle)
+        self.gamepad_thread.start()
 
     def timer_callback(self):
-        msg = Float64MultiArray()
-        msg.data = self.data
-        self.publisher_.publish(msg)
-    
-    def run(self):
+        R2_msg = Float64()
+        L2_msg = Float64()
+        L_Joy_msg = Float64()
+        
+        R2_msg.data = self.R2_val
+        self.get_logger().debug(self.R2_val)
+        print(self.R2_val)
+        L2_msg.data = self.L2_val
+        L_Joy_msg.data = self.L2_val
+
+        self.pub_R2.publish(R2_msg)
+        self.pub_L2.publish(L2_msg)
+        self.pub_L_Joy.publish(L_Joy_msg)
+
+    def ps5_handle(self):
         for event in self.gamepad.read_loop():
             if event.type == ecodes.EV_ABS and event.code in self.absolutes:                    
                 value = event.value
 
                 match event.code:
-                    case 0: self.data[0] = value # Left Joy left-right
-                    case 1: self.data[1] = value # Left Joy up-down
-                    case 2: self.data[4] = value # L2
-                    case 3: self.data[2] = value # Right Joy left-right
-                    case 4: self.data[3] = value # Right Joy up-down
-                    case 5: self.data[5] = value # R2
+                    case 0: self.L_Joy_val = value # Left Joy left-right
+                    case 2: self.L2_val = value # L2
+                    case 5: self.R2_val = value # R2
 
 def main(args=None):
     rclpy.init(args=args)
     ps5_node = ps5_controller()
     try:
-        ps5_node.run()
+        rclpy.spin(ps5_node)
     except KeyboardInterrupt:
         pass
     finally:
