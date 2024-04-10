@@ -1,0 +1,31 @@
+running develop
+Removing /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak-d-pro.egg-link (link to .)
+running egg_info
+writing ../../build/oak_d_pro/oak_d_pro.egg-info/PKG-INFO
+writing dependency_links to ../../build/oak_d_pro/oak_d_pro.egg-info/dependency_links.txt
+writing entry points to ../../build/oak_d_pro/oak_d_pro.egg-info/entry_points.txt
+writing requirements to ../../build/oak_d_pro/oak_d_pro.egg-info/requires.txt
+writing top-level names to ../../build/oak_d_pro/oak_d_pro.egg-info/top_level.txt
+reading manifest file '../../build/oak_d_pro/oak_d_pro.egg-info/SOURCES.txt'
+writing manifest file '../../build/oak_d_pro/oak_d_pro.egg-info/SOURCES.txt'
+running build
+running build_py
+copying oak_d_pro/__init__.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build/lib/oak_d_pro
+running install
+running install_lib
+creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro
+copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build/lib/oak_d_pro/main.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro
+copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build/lib/oak_d_pro/cam_info.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro
+copying /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/build/lib/oak_d_pro/__init__.py -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro
+byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro/main.py to main.cpython-310.pyc
+byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro/cam_info.py to cam_info.cpython-310.pyc
+byte-compiling /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/oak_d_pro -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/share/oak_d_pro
+running install_egg_info
+Copying ../../build/oak_d_pro/oak_d_pro.egg-info to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/python3.10/site-packages/oak_d_pro-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cam_info_pub script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/oak_d_pro
+Installing oak_d_pro script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro/lib/oak_d_pro
+writing list of installed files to '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/oak_d_pro/install.log'

@@ -1,0 +1,19 @@
+[3.585s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/build --no-deps symlink_data --force
+[5.145s] running develop
+[6.316s] running egg_info
+[6.317s] writing rc_car.egg-info/PKG-INFO
+[6.318s] writing dependency_links to rc_car.egg-info/dependency_links.txt
+[6.319s] writing entry points to rc_car.egg-info/entry_points.txt
+[6.320s] writing requirements to rc_car.egg-info/requires.txt
+[6.320s] writing top-level names to rc_car.egg-info/top_level.txt
+[6.329s] reading manifest file 'rc_car.egg-info/SOURCES.txt'
+[6.332s] writing manifest file 'rc_car.egg-info/SOURCES.txt'
+[6.339s] running build_ext
+[6.339s] Creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/python3.10/site-packages/rc-car.egg-link (link to .)
+[6.342s] Installing control_esp script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/rc_car
+[6.344s] 
+[6.345s] Installed /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car
+[6.345s] running symlink_data
+[6.346s] symbolically linking /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/resource/rc_car -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/share/ament_index/resource_index/packages
+[6.347s] symbolically linking /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/package.xml -> /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/share/rc_car
+[6.508s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car' returned '0': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/build --no-deps symlink_data --force

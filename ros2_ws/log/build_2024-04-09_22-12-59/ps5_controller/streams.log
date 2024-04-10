@@ -1,0 +1,21 @@
+[7.634s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/ps5_controller': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps5_controller build --build-base /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/build install --record /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/install.log --single-version-externally-managed install_data
+[9.962s] running egg_info
+[9.964s] writing ../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO
+[9.967s] writing dependency_links to ../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt
+[9.970s] writing entry points to ../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt
+[9.972s] writing requirements to ../../build/ps5_controller/ps5_controller.egg-info/requires.txt
+[9.974s] writing top-level names to ../../build/ps5_controller/ps5_controller.egg-info/top_level.txt
+[9.986s] reading manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+[9.992s] writing manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+[9.994s] running build
+[9.996s] running build_py
+[9.999s] running install
+[10.001s] running install_lib
+[10.010s] running install_data
+[10.013s] running install_egg_info
+[10.023s] removing '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[10.027s] Copying ../../build/ps5_controller/ps5_controller.egg-info to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages/ps5_controller-0.0.0-py3.10.egg-info
+[10.039s] running install_scripts
+[10.165s] Installing ps5_controller script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/ps5_controller
+[10.169s] writing list of installed files to '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/install.log'
+[10.377s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/ps5_controller' returned '0': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps5_controller build --build-base /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/build install --record /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/ps5_controller/install.log --single-version-externally-managed install_data

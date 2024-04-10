@@ -1,32 +1,36 @@
-#  Control a 5V PWM fan speed with the lgpio library
-#  Uses lgpio library, compatible with kernel 5.11
-#  Author: William 'jawn-smith' Wilson
-
-import lgpio
+import serial
+import struct
 import time
 
-# Configuration
-FAN = 18 # pin used to drive PWM fan
-FREQ = 10000
+# Serial port configuration
+serial_port = '/dev/ttyUSB0'  # Adjust this to your serial port
+baud_rate = 115200  # Adjust this to match the baud rate of your device
 
-h = lgpio.gpiochip_open(0)
-print("Start")
+# Mapping function
+def map_value(value, in_min, in_max, out_min, out_max):
+    # Ensure the input is within the provided bounds
+    value = max(min(value, in_max), in_min)
+    # Perform the mapping
+    return (value - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
+
+# Open the serial port
+ser = serial.Serial(serial_port, baud_rate)
+time.sleep(2)  # Wait for the connection to establish
 
 try:
     while True:
+        for i in range(128, 255):
 
-        lgpio.tx_pwm(h, FAN, FREQ, 0)
-        # # Turn the fan off
-        # lgpio.tx_pwm(h, FAN, FREQ, 0)
-        # print("Back")
-        # time.sleep(5)
+            data_to_send = i
+            data_to_send = map_value(data_to_send, 0, 255, 0, 180)
+            data_to_send = struct.pack('<H', data_to_send)
+            ser.write(data_to_send)
+            time.sleep(0.1)
 
-        # # Turn the fan to max speed
-        # lgpio.tx_pwm(h, FAN, FREQ, 100)
-        # print("Forward")
-        # time.sleep(5)
+            print(f"Sent mapped value: {i}")
 
-except KeyboardInterrupt:
-    # Turn the fan to medium speed
-    lgpio.tx_pwm(h, FAN, FREQ, 50)
-    lgpio.gpiochip_close(h)
+finally:
+    # Make sure to close the port
+    ser.close()
+
+print("Serial port closed.")

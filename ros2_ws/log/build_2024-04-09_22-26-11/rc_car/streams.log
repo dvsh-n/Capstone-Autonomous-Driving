@@ -1,0 +1,17 @@
+[3.656s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/build --no-deps symlink_data
+[5.223s] running develop
+[6.403s] running egg_info
+[6.404s] writing rc_car.egg-info/PKG-INFO
+[6.405s] writing dependency_links to rc_car.egg-info/dependency_links.txt
+[6.405s] writing entry points to rc_car.egg-info/entry_points.txt
+[6.406s] writing requirements to rc_car.egg-info/requires.txt
+[6.407s] writing top-level names to rc_car.egg-info/top_level.txt
+[6.416s] reading manifest file 'rc_car.egg-info/SOURCES.txt'
+[6.419s] writing manifest file 'rc_car.egg-info/SOURCES.txt'
+[6.426s] running build_ext
+[6.426s] Creating /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/python3.10/site-packages/rc-car.egg-link (link to .)
+[6.430s] Installing control_esp script to /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/rc_car
+[6.432s] 
+[6.432s] Installed /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car
+[6.432s] running symlink_data
+[6.596s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car' returned '0': PYTHONPATH=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/prefix_override:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car/build --no-deps symlink_data

@@ -1,1 +1,0 @@
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/ps5_controller/setup.py

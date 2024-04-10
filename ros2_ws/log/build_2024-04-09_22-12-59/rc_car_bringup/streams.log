@@ -1,0 +1,43 @@
+[4.690s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/rc_car_bringup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup
+[5.651s] -- The C compiler identification is GNU 11.4.0
+[6.485s] -- The CXX compiler identification is GNU 11.4.0
+[6.536s] -- Detecting C compiler ABI info
+[7.125s] -- Detecting C compiler ABI info - done
+[7.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.163s] -- Detecting C compile features
+[7.167s] -- Detecting C compile features - done
+[7.197s] -- Detecting CXX compiler ABI info
+[7.977s] -- Detecting CXX compiler ABI info - done
+[8.014s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.021s] -- Detecting CXX compile features
+[8.022s] -- Detecting CXX compile features - done
+[8.078s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.197s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.403s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.061s] -- Added test 'lint_cmake' to check CMake code style
+[11.075s] -- Added test 'xmllint' to check XML markup files
+[11.093s] -- Configuring done
+[11.120s] -- Generating done
+[11.122s] -- Build files have been written to: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup
+[11.160s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/rc_car_bringup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup
+[11.167s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup -- -j4 -l4
+[11.360s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup -- -j4 -l4
+[11.489s] Invoking command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup
+[11.523s] -- Install configuration: ""
+[11.524s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/launch
+[11.526s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/ament_index/resource_index/package_run_dependencies/rc_car_bringup
+[11.528s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/ament_index/resource_index/parent_prefix_path/rc_car_bringup
+[11.529s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/environment/ament_prefix_path.sh
+[11.531s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/environment/ament_prefix_path.dsv
+[11.532s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/environment/path.sh
+[11.534s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/environment/path.dsv
+[11.535s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/local_setup.bash
+[11.537s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/local_setup.sh
+[11.538s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/local_setup.zsh
+[11.539s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/local_setup.dsv
+[11.541s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/package.dsv
+[11.543s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/ament_index/resource_index/packages/rc_car_bringup
+[11.544s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/cmake/rc_car_bringupConfig.cmake
+[11.546s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/cmake/rc_car_bringupConfig-version.cmake
+[11.547s] -- Installing: /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/rc_car_bringup/share/rc_car_bringup/package.xml
+[11.555s] Invoked command in '/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/ps5_controller:/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/install/oak_d_pro:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup

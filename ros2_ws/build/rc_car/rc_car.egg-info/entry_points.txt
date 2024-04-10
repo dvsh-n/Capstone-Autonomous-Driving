@@ -1,0 +1,3 @@
+[console_scripts]
+control_esp = rc_car.control_esp:main
+
