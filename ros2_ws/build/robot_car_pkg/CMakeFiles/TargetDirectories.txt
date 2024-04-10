@@ -1,9 +1,0 @@
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/uninstall.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/robot_car_pkg_uninstall.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/test.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/edit_cache.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/list_install_components.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/install.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/install/local.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/robot_car_pkg/CMakeFiles/install/strip.dir
