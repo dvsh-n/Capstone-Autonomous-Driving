@@ -10,7 +10,11 @@ setup.py
 ../../build/ps5_controller/ps5_controller.egg-info/zip-safe
 ps5_controller/__init__.py
 ps5_controller/main.py
+ps5_controller.egg-info/PKG-INFO
+ps5_controller.egg-info/SOURCES.txt
+ps5_controller.egg-info/dependency_links.txt
+ps5_controller.egg-info/entry_points.txt
+ps5_controller.egg-info/requires.txt
+ps5_controller.egg-info/top_level.txt
+ps5_controller.egg-info/zip-safe
 resource/ps5_controller
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

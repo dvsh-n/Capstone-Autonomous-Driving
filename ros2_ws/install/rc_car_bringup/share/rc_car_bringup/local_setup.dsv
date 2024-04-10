@@ -1,2 +1,1 @@
-source;share/rc_car_bringup/environment/ament_prefix_path.sh
-source;share/rc_car_bringup/environment/path.sh
+/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/ament_cmake_environment_hooks/local_setup.dsv

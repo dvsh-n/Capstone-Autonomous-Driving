@@ -10,7 +10,11 @@ setup.py
 ../../build/oak_d_pro/oak_d_pro.egg-info/zip-safe
 oak_d_pro/__init__.py
 oak_d_pro/main.py
+oak_d_pro.egg-info/PKG-INFO
+oak_d_pro.egg-info/SOURCES.txt
+oak_d_pro.egg-info/dependency_links.txt
+oak_d_pro.egg-info/entry_points.txt
+oak_d_pro.egg-info/requires.txt
+oak_d_pro.egg-info/top_level.txt
+oak_d_pro.egg-info/zip-safe
 resource/oak_d_pro
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

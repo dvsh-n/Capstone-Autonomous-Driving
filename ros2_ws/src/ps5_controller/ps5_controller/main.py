@@ -15,7 +15,7 @@ class ps5_controller(Node):
         self.pub_L_Pad_UD = self.create_publisher(Int32, 'ps5/L_Pad_UD', 10)
         timer_period = 1/100  # 100Hz
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.gamepad = InputDevice('/dev/input/event18') 
+        self.gamepad = InputDevice('/dev/input/event2') # 18 for laptop, 4 for pi
         self.button_presses = {                          
             308: 'square',
             304: 'x',

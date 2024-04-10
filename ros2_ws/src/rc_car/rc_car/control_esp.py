@@ -14,7 +14,7 @@ class control_esp(Node):
         self.sub_R2 = self.create_subscription(Int32, 'ps5/R2', self.R2_update, 10)
         self.sub_L2 = self.create_subscription(Int32, 'ps5/L2', self.L2_update, 10)
         self.sub_L_Joy = self.create_subscription(Int32, 'ps5/L_Joy', self.L_Joy_update, 10)
-        self.serial_port = serial.Serial('/dev/ttyUSB0', 115200, timeout=2)
+        # self.serial_port = serial.Serial('/dev/ttyUSB0', 115200, timeout=2)
 
         timer_period = 1/100  # 100Hz
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -35,7 +35,7 @@ class control_esp(Node):
     def timer_callback(self):
         if self.R2 > self.L2:
             throttle = self.map_value(self.R2, 0, 255, 90, 180)
-        else if self.L2 > self.R2:
+        elif self.L2 > self.R2:
             throttle = self.map_value(self.L2, 0, 255, 90, 0)
         else:
             throttle = 90
@@ -51,20 +51,20 @@ class control_esp(Node):
         self.pub_throttle.publish(throttle_msg)
         self.pub_steer.publish(steer_msg)
 
-        data_to_send = struct.pack('<HH', self.throttle, self.steer)
+        # data_to_send = struct.pack('<HH', self.throttle, self.steer)
 
-        self.serial_port.write(data_to_send)
+        # self.serial_port.write(data_to_send)
 
     def map_value(self, value, in_min, in_max, out_min, out_max):
         return (value - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
 
 def main(args=None):
     rclpy.init(args=args)
-    control_esp = control_esp()
-    rclpy.spin(control_esp)
+    control_esp_node = control_esp()
+    rclpy.spin(control_esp_node)
 
-    control_esp.serial_port.close()
-    control_esp.destroy_node()
+    control_esp_node.serial_port.close()
+    control_esp_node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

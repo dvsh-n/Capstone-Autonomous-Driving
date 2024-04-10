@@ -1,3 +1,0 @@
-[console_scripts]
-ps5_controller = ps5_controller.main:main
-
