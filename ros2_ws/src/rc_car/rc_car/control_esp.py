@@ -10,7 +10,11 @@ class control_esp(Node):
         super().__init__('control_esp')
         self.pub_throttle = self.create_publisher(Int32, 'throttle', 10)
         self.pub_steer = self.create_publisher(Int32, 'steer', 10)
-
+        self.pub_throttle_sensitivity = self.create_publisher(Int32, 'throttle_sensitivity', 10)
+        self.pub_steer_sensitivity = self.create_publisher(Int32, 'steer_sensitivity', 10)
+        
+        self.sub_L_Pad_LR = self.create_subscription(Int32, 'ps5/L_Pad_LR', self.L_Pad_LR_update, 10)
+        self.sub_L_Pad_UD = self.create_subscription(Int32, 'ps5/L_Pad_UD', self.L_Pad_UD_update, 10)
         self.sub_R2 = self.create_subscription(Int32, 'ps5/R2', self.R2_update, 10)
         self.sub_L2 = self.create_subscription(Int32, 'ps5/L2', self.L2_update, 10)
         self.sub_L_Joy = self.create_subscription(Int32, 'ps5/L_Joy', self.L_Joy_update, 10)
@@ -22,6 +26,11 @@ class control_esp(Node):
         self.R2 = 0
         self.L2 = 0
         self.L_Joy = 128
+        self.throttle_sensitivity = 500
+        self.steer_sensitivity = 500
+
+        self.max_sensitivity = 1000
+        self.min_sensitivity = 100
 
     def R2_update(self, msg):
         self.R2 = msg.data
@@ -31,27 +40,43 @@ class control_esp(Node):
 
     def L_Joy_update(self, msg):
         self.L_Joy = msg.data
+    
+    def L_Pad_LR_update(self, msg):
+        self.steer_sensitivity = max(self.min_sensitivity, self.steer_sensitivity + msg.data)
+        self.steer_sensitivity = min(self.max_sensitivity, self.steer_sensitivity + msg.data)
+
+    def L_Pad_UD_update(self, msg):
+        self.throttle_sensitivity = max(self.min_sensitivity, self.throttle_sensitivity - msg.data)
+        self.throttle_sensitivity = min(self.max_sensitivity, self.throttle_sensitivity - msg.data)
 
     def timer_callback(self):
         if self.R2 > self.L2:
-            throttle = self.map_value(self.R2, 0, 255, 90, 180)
+            throttle = self.map_value(self.R2, 0, 255, 90, self.map_value((self.throttle_sensitivity/self.max_sensitivity), 0, 1, 90, 180))
         elif self.L2 > self.R2:
-            throttle = self.map_value(self.L2, 0, 255, 90, 0)
+            throttle = self.map_value(self.L2, 0, 255, 90, self.map_value((self.throttle_sensitivity/self.max_sensitivity), 0, 1, 90, 0))
         else:
             throttle = 90
         
-        steer = self.map_value(self.L_Joy, 0, 255, 130, 64) # 97 is mid, 64 is right, 130 is left
+        max_steer_left = self.map_value((self.steer_sensitivity/self.max_sensitivity), 0, 1, 97, 130)
+        max_steer_right = self.map_value((self.steer_sensitivity/self.max_sensitivity), 0, 1, 97, 64)
+        steer = self.map_value(self.L_Joy, 0, 255, max_steer_left, max_steer_right) # 97 is mid, 64 is right, 130 is left
 
         throttle_msg = Int32()
         steer_msg = Int32()
+        throttle_sensitivity_msg = Int32()
+        steer_sensititvity_msg = Int32()
 
-        throttle_msg.data = throttle
-        steer_msg.data = steer
+        throttle_msg.data = int(throttle)
+        steer_msg.data = int(steer)
+        steer_sensititvity_msg.data = int(self.steer_sensitivity)
+        throttle_sensitivity_msg.data = int(self.throttle_sensitivity)
 
         self.pub_throttle.publish(throttle_msg)
         self.pub_steer.publish(steer_msg)
+        self.pub_steer_sensitivity.publish(steer_sensititvity_msg)
+        self.pub_throttle_sensitivity.publish(throttle_sensitivity_msg)
 
-        data_to_send = struct.pack('<HH', throttle, steer)
+        data_to_send = struct.pack('<HH', int(throttle), int(steer))
 
         self.serial_port.write(data_to_send)
 
