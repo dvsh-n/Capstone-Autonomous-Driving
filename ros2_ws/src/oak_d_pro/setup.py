@@ -20,8 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'oak_d_pro = oak_d_pro.main:main',
-        'cam_info_pub = cam_info:main'
+        'oak_d_pro = oak_d_pro.main:main'
         ],
     },
 )
