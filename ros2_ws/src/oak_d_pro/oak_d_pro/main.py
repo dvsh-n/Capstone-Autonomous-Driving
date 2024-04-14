@@ -14,12 +14,12 @@ class oak_d_pro(Node):
 
     def __init__(self):
         super().__init__('oak_d_pro')
+        self.nnBlobPath = r"/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/oak_d_pro/config/mobilenet-ssd_openvino_2021.4_6shave.blob"
         self.pub_depth = self.create_publisher(Image, 'oak_d_pro/depth', 10)
         self.pub_color = self.create_publisher(Image, 'oak_d_pro/spatial_NN_out', 10)
         self.pipeline, self.depth  = self.create_pipeline()
         self.labelMap = ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow",
             "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
-        self.nnBlobPath = os.getcwd() + r"\mobilenet-ssd_openvino_2021.4_6shave.blob"
         self.cv_bridge = CvBridge()
 
     def create_pipeline(self):
