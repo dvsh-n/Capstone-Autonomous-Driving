@@ -1,9 +1,0 @@
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/uninstall.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/rc_car_bringup_uninstall.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/test.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/edit_cache.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/list_install_components.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/install.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/install/local.dir
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/CMakeFiles/install/strip.dir

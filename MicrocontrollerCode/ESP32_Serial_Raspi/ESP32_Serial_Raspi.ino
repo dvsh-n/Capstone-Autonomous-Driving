@@ -22,9 +22,8 @@ void loop() {
     throttle_val = buf[0] | (buf[1] << 8); // Read the incoming string until a newline character
     steer_val = buf[2] | (buf[3] << 8);
     ESC_throttle.write(throttle_val);    // Send the signal to the ESC_throttle
-    Steer.write(steer_val)
+    Steer.write(steer_val);
   }
-  
 }
 
 
