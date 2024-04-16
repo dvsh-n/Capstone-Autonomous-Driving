@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'visualize = pc_stuff.visualize:main'
+            'image_sub = pc_stuff.image_sub:main'
         ],
     },
 )
