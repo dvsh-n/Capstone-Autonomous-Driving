@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image # Image is the message type
+from sensor_msgs.msg import CompressedImage # Image is the message type
 from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Images
 from datetime import timedelta
 import cv2 # OpenCV library
@@ -15,8 +15,8 @@ class oak_d_pro(Node):
     def __init__(self):
         super().__init__('oak_d_pro')
         self.nnBlobPath = r"/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/src/oak_d_pro/config/mobilenet-ssd_openvino_2021.4_6shave.blob"
-        self.pub_depth = self.create_publisher(Image, 'oak_d_pro/depth', 10)
-        self.pub_color = self.create_publisher(Image, 'oak_d_pro/spatial_NN_out', 10)
+        self.pub_color = self.create_publisher(CompressedImage, 'oak_d_pro/spatial_NN_out/compressed', 10)
+        self.pub_depth = self.create_publisher(CompressedImage, 'oak_d_pro/depth/compressed', 10)
         self.pipeline, self.depth  = self.create_pipeline()
         self.labelMap = ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow",
             "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
@@ -121,8 +121,8 @@ class oak_d_pro(Node):
             max_depth = np.percentile(depth_downscaled, 99)
             depthFrameColor = np.interp(frame_depth, (min_depth, max_depth), (0, 255)).astype(np.uint8)
             depthFrameColor = cv2.applyColorMap(depthFrameColor, cv2.COLORMAP_JET)
-
-            depth_msg = self.cv_bridge.cv2_to_imgmsg(depthFrameColor, "bgr8")
+            
+            depth_msg = self.cv_bridge.cv2_to_compressed_imgmsg(depthFrameColor, dst_format='jpeg')
             depth_msg.header.stamp = self.get_clock().now().to_msg()
             depth_msg.header.frame_id = "depth"
             self.pub_depth.publish(depth_msg)
@@ -165,7 +165,7 @@ class oak_d_pro(Node):
 
                 cv2.putText(frame_color, "NN fps: {:.2f}".format(fps), (2, frame_color.shape[0] - 4), cv2.FONT_HERSHEY_TRIPLEX, 0.4, (255,255,255))
                 
-            color_msg = self.cv_bridge.cv2_to_imgmsg(frame_color, "bgr8")
+            color_msg = self.cv_bridge.cv2_to_compressed_imgmsg(frame_color, dst_format='jpeg')
             color_msg.header.stamp = self.get_clock().now().to_msg()
             color_msg.header.frame_id = "color_frame"
             self.pub_color.publish(color_msg)

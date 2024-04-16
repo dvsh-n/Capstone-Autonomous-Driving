@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO
-../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt
-../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt
-../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt
-../../build/ps5_controller/ps5_controller.egg-info/requires.txt
-../../build/ps5_controller/ps5_controller.egg-info/top_level.txt
-../../build/ps5_controller/ps5_controller.egg-info/zip-safe
 ps5_controller/__init__.py
 ps5_controller/main.py
 ps5_controller.egg-info/PKG-INFO

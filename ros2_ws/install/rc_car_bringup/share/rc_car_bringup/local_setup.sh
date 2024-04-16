@@ -1,1 +1,0 @@
-/home/ubuntu/Capstone-Autonomous-Driving/ros2_ws/build/rc_car_bringup/ament_cmake_environment_hooks/local_setup.sh
