@@ -36,15 +36,11 @@ if __name__ == '__main__':
     set_resolution(URL, 7)
     set_quality(URL, 4)
     set_awb(URL, 1)
-    set_flash(URL, 255)
+    set_flash(URL, 0)
 
     while True:
         if cap.isOpened():
             ret, frame = cap.read()
-
-            if ret:
-                gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-                gray = cv2.equalizeHist(gray)
 
             cv2.imshow("frame", frame)
 
