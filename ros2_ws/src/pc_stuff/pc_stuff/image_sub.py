@@ -15,7 +15,7 @@ class ImageSub(Node):
 
         self.declare_parameter("ESPCam_URL", "http://192.168.0.102")
         self.URL = str(self.get_parameter("ESPCam_URL").value)
-        self.declare_parameter("ESPCam_res", 7)
+        self.declare_parameter("ESPCam_res", 8)
         self.res = int(self.get_parameter("ESPCam_res").value)
         self.declare_parameter("ESPCam_led", 0)
         self.led = int(self.get_parameter("ESPCam_led").value)
@@ -45,6 +45,8 @@ class ImageSub(Node):
         while True:
             if self.cap.isOpened():
                 ret, frame = self.cap.read()
+
+                frame = cv2.resize(frame, (640, 400))
 
                 cv2.imshow("frame", frame)
 
