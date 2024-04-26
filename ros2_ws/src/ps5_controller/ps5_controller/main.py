@@ -8,7 +8,7 @@ class ps5_controller(Node):
 
     def __init__(self):
         super().__init__('ps5_controller')
-        self.declare_parameter('event', 0)
+        self.declare_parameter('event', 18)
         self.pub_R2 = self.create_publisher(Int32, 'ps5/R2', 10)
         self.pub_L2 = self.create_publisher(Int32, 'ps5/L2', 10)
         self.pub_L_Joy = self.create_publisher(Int32, 'ps5/L_Joy', 10)
